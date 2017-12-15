@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -18,7 +18,7 @@
 <tr><td colspan="6" width="50" height="30" align="center">机器故障现象</td></tr>
 <tr><td colspan="6" width="50" height="30" align="center"></td></tr>
 <tr><td colspan="2" width="50" height="30" align="center">保修承诺</td><td colspan="4" width="50" height="30" align="center">注意事项</td></tr>
-<tr><td colspan="2" width="50" height="30" align="center"></td><td colspan="4" width="50" height="30" align="center"></td></tr>
+<tr><td  width="50" height="30" >部件型号</td><td >型号</td><td colspan="2" width="50" height="30" >数量单价</td><td colspan="2">单价</td></tr>
 <tr><td width="50" height="30" ></td><td></td><td colspan="2" width="50" height="30"></td><td colspan="2" width="50" height="30"></td></tr>
 </table>
 <table align="center" width="600" height="20" >
