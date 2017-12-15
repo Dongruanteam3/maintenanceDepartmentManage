@@ -9,10 +9,7 @@
 <body>
 <center><h4>结算费用</h4></center>
 <form>
-<table align="center" width="400" height="20"  >
-<tr><td align="left" width="200"><b>注意:<font color=red>*</font>为必填项</b></td></tr>
-</table>
-<table align="center" width="400" height="200" border="1" cellspacing="0" >
+<table align="center" width="500" height="200" border="1" cellspacing="0" >
 
 <tr><td width="250">维修编号<font color=red>*</font></td><td width="250" ><input type="text" name="a1051" id="a1051"></td></tr>
 <tr><td>维修费用<font color=red>*</font></td><td ><input type="text" name="a1052" id="a1052"></td></tr>
@@ -21,9 +18,9 @@
 <tr><td>注意事项</td><td ><input type="text" name="a1055" id="a1055"></td></tr>
 <tr><td>结算日期</td><td ><input type="text" name="a1056" id="a1056"></td></tr>
 </table>
-<table align="center" width="400" height="20" >
-<tr>
- <td align="right"><input type="submit" value="重置" name="reset"></td>
+<table align="center" width="500" height="20" >
+ <tr><td align="left" width="200"><b>注意:<font color=red>*</font>为必填项</b></td>
+ <td width="50"><input type="submit" value="重置" name="reset"></td>
  <td><input type="submit" value="提交" name="submit">
  </td></tr>
 </table>
