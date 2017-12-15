@@ -21,6 +21,10 @@
 <tr><td colspan="2" width="50" height="30" align="center"></td><td colspan="4" width="50" height="30" align="center"></td></tr>
 <tr><td width="50" height="30" ></td><td></td><td colspan="2" width="50" height="30"></td><td colspan="2" width="50" height="30"></td></tr>
 </table>
-<pre><p align="center"><b> 发货签字:          机关签字：                打印时间：           </b></p></pre>
+<table align="center" width="600" height="20" >
+<tr><td width="80"><b>发货签字:</b></td><td width="100"></td><td width="80"><b>机关签字:</b></td><td width="100"></td>
+<td width="80"><b>打印时间:</b></td><td width="100"></td></tr>
+</table>
+
 </body>
 </html>
