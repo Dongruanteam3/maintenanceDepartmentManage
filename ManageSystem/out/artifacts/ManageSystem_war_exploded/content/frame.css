@@ -117,10 +117,18 @@ nav{
     margin-top: 40px;
     float: left;
     line-height:0.5;
+    font-size: 20px
 }
 
 .footer-brand{
     font-size: 30px;
     color: #f8f8f8;
 }
+
+.clearfix{
+   margin: 0 auto;
+    background-color: white;
+}
+
+
 
