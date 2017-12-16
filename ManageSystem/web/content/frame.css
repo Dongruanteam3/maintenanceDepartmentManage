@@ -284,3 +284,12 @@ aside, details, figcaption, figure, footer, header, main, menu, nav, section, su
     width:10px;
 }
 
+form{
+    display: block;
+    margin-top: 0em;
+}
+
+div{
+    display: block;
+    box-sizing: border-box;
+}
