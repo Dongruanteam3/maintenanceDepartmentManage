@@ -7,7 +7,6 @@ function kefu () {
         "作为一个面向客户的系统,需要记录客户的相关信息,并易于维护<br>功能:<br>包括客户信息的录入,编辑,查看,删除";
 }
 function diaodu(){
-    document.getElementById("function-detail").innerHTML="<h6 style='font-size: 30px; text-shadow: 0 0 25px #fbf3e0 ;' class='heading'>报修管理</h6>"+
             "用于客户维护报修相关的信息,包括报修设备的信息 <br>功能: <br>1. 维护报修消息(包括报修记录和报修设备的维护)"+
             "<br>2. 打印客户确认单<br>3. 提交客户确认单:客户认可客户确认单并签字后,客服提交客户确认单,系统会展开一个维修任务"+
             "<br>4. 设定维修任务监察状态:每天定时监察维修任务的信息并能判断系统维修状态";
