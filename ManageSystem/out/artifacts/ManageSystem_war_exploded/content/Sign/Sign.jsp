@@ -1,4 +1,4 @@
-
+<%@ page contentType="text/html; charset=UTF-8" language="java" errorPage="" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,13 +28,13 @@
             <div class="sign-form-body">
                 <br>
                 <label for="username">
-                    Username
+                    账户
                 </label>
                 <br>
                 <input autofocus="autofocus" class="sign-form-input" id="username" name="username" tabindex="1" type="text">
                 <br>
                 <label for="password">
-                    Password
+                    密码
                 </label>
                 <br>
                 <input class="sign-form-input" id="password" name="password" tabindex="2" type="password">
@@ -42,14 +42,18 @@
 
                 <img src="../../res/png/function/眼%20(1).png" alt="显示密码" class="showPassword" onclick="javascript:showhide_password()" id="showpassword">
                 <br>
-                    <!--<input class="submitbuttom" name="commit" tabindex="3" type="submit" ><img src="../../res/png/function/提交bai.png">-->
+                <!--<input class="submitbuttom" name="commit" tabindex="3" type="submit" ><img src="../../res/png/function/提交bai.png">-->
                 <label for="captcha">
-                    Captcha
+                    验证
                 </label>
                 <br>
-                <input type="text" name="captcha" id="captcha" class="sign-form-input">
+                <input type="text" name="captcha" id="captcha" class="sign-form-input" style="width: 200px">
+                &nbsp; &nbsp;
+                <img alt="验证码" id="imagecode" src="<%=request.getContextPath()%>/servlet/ImageServlet"/>
+                <a onclick="document.getElementById('imagecode').src='<%=request.getContextPath()%>/servlet/ImageServlet?'+Math.random()" style="color: #c2c3aa;">看不清,换一张</a>
+                <%--<input type="text" name="captcha" id="captcha" class="sign-form-input">--%>
                 <span class="submitbuttom-frame">
-                    <input name="imgbtn" type="image" src="../../res/png/function/提交bai.png" class="submitbuttom" onmousemove="bigImg(this)" onmouseout="normalImg(this)">
+                    <input name="imgbtn" type="image" src="../../res/png/function/提交bai.png" class="submitbuttom" onmousemove="bigImg(this)" onmouseout="normalImg(this) ">
                 </span>
             </div>
         </form>
