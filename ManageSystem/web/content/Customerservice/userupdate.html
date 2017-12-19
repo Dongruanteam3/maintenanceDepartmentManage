@@ -21,12 +21,10 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../about/About.html">About</a>
-                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
-                    <a style="color: #5d594d;" href="/contact">Contact</a>
-                    <a style="color: #5d594d;" href="/search">Search</a>
-                    <a style="color: #5d594d;" href="../Sign/Sign.html">SignIn</a>
-                </span>
+
+                    <a style="color: #5d594d;" href="userselect.html">查询客户信息</a>
+                    <a style="color: #5d594d;" href="userinsert.html">添加客户</a>
+                    <a style="color: #5d594d;" href="customer.html">首页</a></span>
         </div>
     </div>
 
@@ -56,7 +54,7 @@
         <br>
         <p class="heading headding2">修改客户信息</p>
         <br>
-        <form action="">
+        <form action="selectResult.html">
             <table class="confermation-table" border="1px solid">
                 <tr>
                     <th colspan="4" style="text-align: center; font-weight: 400; font-size:35px">宇无公司客户信息</th>
@@ -100,17 +98,12 @@
                 </tr>
                 </tr>
             </table>
+          <input type="submit" class="submit" value="提交"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)"">
         </form>
         <br>
-        <br>
-        <!--TODO: 修改客户信息链接-->
-        <a href="userdelete.html" class="headding-list">删除客户信息</a>
-        <br>
-        <br>
-        <a href="userselect.html" class="headding-list">查询客户信息</a>
-        <br>
-        <div style="margin-bottom: 200px"></div>
 
+        <div style="margin-bottom: 200px"></div>
+  
     </div>
 </main>
 </section>
