@@ -1,0 +1,295 @@
+.navbar {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    /*font-family: "Metropolis", "Helvetica Neue", helvetica, arial, sans-serif;*/
+    letter-spacing: 0.04em;
+
+}
+.footer {
+    margin: 0  -10px;
+    text-transform:   uppercase;
+    letter-spacing: 0.04em;
+    position:relative;
+    bottom:0;
+    width:100%;
+    height: 150px;
+}
+
+.navbar-fixed-top {
+    height: 100px;
+    padding-top: 13.5px;
+    background: rgba(242, 241, 243, 0.98);
+    box-shadow: 0 2px 4px rgba(34, 34, 35, 0.25);
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.footer-defult {
+    background-color: #272822;
+    border-color: #64645e;
+}
+
+.container-fluid {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.navbar-header{
+    float: left;
+}
+
+.navbar-brand {
+    margin-left: 15px;
+}
+
+
+.navbar-default .navbar-collapse{
+    border-color: #337ab7;
+}
+
+.footer-default .footer-collapse{
+    border-color: #f8f8f8;
+}
+
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+
+.navbar-bar{
+    line-height: 1;
+    float: right;
+    text-transform: uppercase;
+    font-size:25px;
+    word-spacing: 10px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+
+
+
+.navbar-centerTi{
+    font-size: 50px;
+    margin-left: 10%;
+    text-shadow: 3px 1px 5px grey;
+    color: #5d594d;
+    letter-spacing: 0.1em;
+}
+
+.footer-brand{
+    font-weight: bolder;
+}
+
+.show-copyright{
+    margin-left: 20px;
+    margin-top: 40px;
+    float: left;
+    line-height:0.5;
+    font-size: 20px
+}
+
+.footer-brand{
+    font-size: 30px;
+    color: #f8f8f8;
+}
+
+.title{
+    margin: -5px -10px;
+    height: 500px;
+    background-image: url(../res/png/titleImage.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.show-info{
+    padding-top: 160px;
+    text-align: center;
+}
+
+.midtitle{
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-shadow: 0 0 25px #fbf3e0 ;
+    padding-left: 60px;
+}
+
+
+.clearfix {
+    display: block;
+    box-sizing: border-box;
+}
+
+.show-details {
+    margin-bottom: 50px !important;
+    overflow: auto;
+
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1300px !important;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    box-sizing: border-box;
+}
+
+.colshowl{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 66.66666667%;
+    float: left;
+}
+
+.colshowr{
+    margin-left: 8.33333333%;
+    width: 22%;
+    float: right;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+section.show-details .about-the-show {
+    margin-bottom: 25px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 5px #fbf3e0 ;
+}
+
+.show-description {
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 200;
+    letter-spacing: .017em;
+    width: 100%;
+}
+
+
+.show-socials {
+    clear: both;
+    margin-bottom: 25px;
+}
+
+.show-socials.heading{
+    font-size: 40px;
+}
+
+.socialsicon{
+    height:40px;
+    width:40px;
+    box-shadow: 0 0 15px #fbf3e0 ;
+    border-radius: 2em;
+}
+
+.list-of-socials {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+a{
+    color: #5d594d;
+    text-decoration:none;
+}
+
+body{
+    background: #3f3f3f;
+    height: 100%;
+    padding-top: 70px;
+    font-family: "PingFang SC","SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-style: inherit;
+    font-weight: 200;
+    color: #f8f8f8;
+    break-word:all
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary{
+    display: block;
+    box-sizing: border-box;
+}
+
+.show-functions{
+}
+
+.show-functionpics{
+    align-content: center;
+}
+
+.functionpic{
+    height: 10px;
+    width:10px;
+}
+
+form{
+    display: block;
+    margin-top: 0em;
+}
+
+div{
+    display: block;
+    box-sizing: border-box;
+}
