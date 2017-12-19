@@ -6,7 +6,8 @@
 
 }
 .footer {
-    margin: 0  -10px;
+    margin-left: -40px;
+    margin-bottom: 20px;
     text-transform:   uppercase;
     letter-spacing: 0.04em;
     position:relative;
@@ -299,14 +300,13 @@ div{
 .submit{
     color: white;
     font-size: 40px;
-    margin-left: 70%;
+    margin-left: 80%;
     border: 0;
     background: #3f3f3f;
     height: 60px;
     margin-top: 40px;
     text-shadow:0 0 5px #5d594d;
     font-weight: 200;
-    font-family: "Source Code Pro";
 }
 
 .submit.selectresult{
@@ -356,4 +356,16 @@ ul{
     background: #3f3f3f;
     color: white;
     height: 50px;
+}
+
+.navbar-bar a{
+    color: #f8f8f8;
+}
+
+.selectPage{
+    text-shadow: 0 0 3px #3f3f3f ;
+}
+
+.innerlink{
+    margin-top: 80px;
 }

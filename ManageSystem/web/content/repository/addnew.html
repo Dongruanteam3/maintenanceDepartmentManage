@@ -22,11 +22,11 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../about/About.html">About</a>
-                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
-                    <a style="color: #5d594d;" href="/contact">Contact</a>
-                    <a style="color: #5d594d;" href="/search">Search</a>
-                    <a style="color: #5d594d;" href="../Sign/Sign.html">SignIn</a>
+                    <a style="color: #5d594d;" href="keeper.html">首页</a>
+                    <a style="color: #5d594d;" href="addnew.html" class="selectPage">入库</a>
+                    <a style="color: #5d594d;" href="repairNeeded.html">出库</a>
+                    <a style="color: #5d594d;" href="select.html">查询库存</a>
+                    <a style="color: #5d594d;" href="../Sign/Sign.html">登出</a>
                 </span>
         </div>
     </div>
@@ -48,25 +48,23 @@
         <h6 class="heading">
             仓库管理
         </h6>
-        <p style="font-size: 40px" class="heading headding2">新备件</p>
+        <p style="font-size: 40px" class="heading headding2">新备件入库</p>
         <br>
-        <form action="" method="post">
-            <table style="margin-top: 30px; margin-bottom: 100px" class="confermation-table" border="1px solid">
+        <form action="addflowfornormal.html" method="post">
+            <table style="margin-top: 30px" class="confermation-table" border="1px solid">
                 <tr>
-                    <th colspan="8" style="text-align: center; font-weight: 400; font-size:35px">新备件入库</th>
+                    <th colspan="4" style="text-align: center; font-weight: 400; font-size:35px">新备件入库</th>
                 </tr>
                 <tr>
                     <th>备件名称</th>
                     <th><input type="text" id="a1051" name="a1051" class="customer-form-input" value="Mac适配器(由前面穿过来的)"></th>
                     <th>型号</th>
                     <th><input type="text" id="a1052" name="a1052" class="customer-form-input"></th>
-                    <th></th>
                 <tr>
                     <th>单价</th>
                     <th><input type="number" id="a1053" name="a1053" class="customer-form-input"></th>
                     <th>数量</th>
                     <th><input type="number" id="a1054" name="a1054" class="customer-form-input" value="1(默认是之前的数字,但这个跟之前不一样 他是重新建立的新的表,可以更改以前的值)"></th>
-                    <th></th>
                 </tr>
                 <tr>
                     <th>入库时间</th>
@@ -77,25 +75,24 @@
                 <tr>
                     <!--根据数量是否低于警戒动态生成 -->
                     <th>库存状态</th>
-                    <th colspan="3"><input type="text" id="a1057" name="a1057" class="customer-form-input" onfocus="getstatu()"></th>
+                    <th colspan="3"><input type="text" id="a1057" name="a1057" class="customer-form-input" onchange="getstatu()"></th>
                 </tr>
             </table>
-            <input style="margin-top: -20px" type="submit" class="submit" value="Submit"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
-
+            <input  type="submit" class="submit" value="提交"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
         </form>
 
-        <a href="addflow.html" style="font-size: 40px; color: white; " class="heading headding2">生成入库流水</a>
-        <a href="add.html" style="font-size: 40px; color: white" class="heading headding2">返回到入库界面</a>
+        <div class="innerlink">
+        <a href="select.html" style="font-size: 30px; color: white" class="heading headding2">原备件添加</a>
+            </div>
         <div style="margin-bottom: 200px"></div>
 
     </div>
 </main>
 
 
-
 <footer class="footer  footer-defult">
     <div class="container-fluid">
-        <div class="show-copyright">
+        <div class="show-copyright" style="margin-left: 5%">
             <a class="footer-brand">Rio</a>
             <p>
                 is © 2017 Team3
@@ -106,11 +103,14 @@
 
         <div class="collapse footer-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #f8f8f8;" href="/about">About</a>
-                    <a style="color: #f8f8f8;" href="/episodes">Episodes</a>
-                    <a style="color: #f8f8f8;" href="/contact">Contact</a>
-                    <a style="color: #f8f8f8;" href="/search">Search</a>
-                    <a style="color: #f8f8f8;" href="/subscribe">Subscribe</a>
+                  <div class="list-of-socials" style="margin-top: 50px">
+                      <a href="https://github.com/Dongruanteam3">
+                          <img class="socialsicon" src="../../res/png/GitHub-Mark.png">
+                      </a>
+                      <a href="http://qun.qzone.qq.com/group#!/562921687/share">
+                          <img class="socialsicon" src="../../res/png/qq.png">
+                      </a>
+                  </div>
                 </span>
         </div>
     </div>
