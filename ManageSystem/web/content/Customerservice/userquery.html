@@ -1,12 +1,12 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>搜索结算表</title>
+    <title>搜索用户</title>
     <link rel="stylesheet" type="text/css" href="../frame.css">
     <link rel="stylesheet" type="text/css" href="../about/tableNeeded.css">
-    <link rel="stylesheet" type="text/css" href="../Customerservice/customerNeeded.css">
+    <link rel="stylesheet" type="text/css" href="./customerNeeded.css">
     <link rel="stylesheet" type="text/css" href="../Sign/banerNeeded.css">
+    <script src="CusNeeded.js"></script>
 
 </head>
 <body>
@@ -42,33 +42,18 @@
 
 <main class="clearfix" role="main">
     <div class="container">
-        <h6 class="heading">
-            账单信息管理
-        </h6>
-
+        
+        
+        <p style="font-size: 40px" class="heading headding2">登记结算信息</p>
         <br>
-        <p style="font-size: 40px" class="heading headding2">查询账单信息</p>
-        <br>
-        <form action="searchResult.html">
+        <form action="userfee.html">
             <div style="margin-left: 20%;">
                 <!--TODO: 删除用户界面的ID编码-->
                 <label for="selectName">
-                    客户姓名
+                    请输入维修号
                 </label>
-                <br>
-                <input style="margin-left: 40px" class="sign-form-input" id="selectName" name="selectName" type="text">
-                <br>
-                <label for="selectId">
-                    客户编号
-                </label>
-                <br>
-                <input style="margin-left: 40px" class="sign-form-input" id="selectId" name="selectId" type="text">
-                <br>
-                <label for="selectrepireId">
-                    维修编号
-                </label>
-                <br>
-                <input style="margin-left: 40px" class="sign-form-input" id="selectrepireId" name="selectrepireId" type="text">
+              
+                <input style="margin-left: 40px" class="sign-form-input" id="selectPhone" name="selectPhone" type="text">
             </div>
             <input type="submit" class="submit" value="Search"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
         </form>
