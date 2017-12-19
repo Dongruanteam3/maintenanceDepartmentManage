@@ -3,33 +3,35 @@
 <head>
     <meta charset="utf-8">
     <title>报修管理</title>
-    <link rel="stylesheet" type="text/css" href="../../frame.css">
-    <link rel="stylesheet" type="text/css" href="../../about/tableNeeded.css">
-    <link rel="stylesheet" type="text/css" href="../customerNeeded.css">
+    <link rel="stylesheet" type="text/css" href="../frame.css">
+    <link rel="stylesheet" type="text/css" href="../about/tableNeeded.css">
+    <link rel="stylesheet" type="text/css" href="../Customerservice/customerNeeded.css">
+    <script src="CusNeeded.js"></script>
 
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="../../frame.html" >
-                <img height="75" width="75" src="../../../res/png/brand.png" class="navbar-brand">
+            <a class="navbar-brand" href="../frame.html" >
+                <img height="75" width="75" src="../../res/png/brand.png" class="navbar-brand">
             </a>
         </div>
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../../about/About.html">About</a>
-                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
-                    <a style="color: #5d594d;" href="/contact">Contact</a>
-                    <a style="color: #5d594d;" href="/search">Search</a>
-                    <a style="color: #5d594d;" href="../../Sign/Sign.html">SignIn</a>
+                     <a style="color: #5d594d;" href="baoxiuguanli.html">首页</a>
+                    <a style="color: #5d594d;" href="AfterSelect/baoxiuinsert.html">填写报修信息</a>
+                    <a style="color: #5d594d;" href="baoxiuselect1.html">报修信息管理</a>
+                    <a style="color: #5d594d;" href="AfterSelect/baoxiuquerendan.html">确认单管理</a>
+                    <a style="color: #5d594d;" href="../about/About.html">登出</a>
                 </span>
         </div>
     </div>
 
 </nav>
 <br>
+
 <div class="title">
     <div class="show-info" style="padding-top: 210px;">
         <a href="http://www.baidu.com" class="midtitle">客 服</a>
@@ -38,18 +40,19 @@
 <!--<div class="title">-->
 <!--<img src="../res/png/titleImage.jpg">-->
 <!--</div>-->
+
 <main class="clearfix" role="main">
-    <div class="container">
-        <h6 class="heading">
-            报修管理
-        </h6>
-        <br>
-        <p style="font-size: 40px" class="heading headding2">维修设备信息</p>
-        <br>
-        <form action="" id="weixiushebei" method="post">
-            <table class="confermation-table" border="1px solid">
+        <div class="container">
+            <h6 class="heading">
+                报修信息管理
+            </h6>
+            <br>
+            <p style="font-size: 40px" class="heading headding2">报修信息修改</p>
+            <br>
+            <form action="">
+                <table style="margin-bottom: 100px" class="confermation-table" border="1px solid">
                 <tr>
-                    <th colspan="4" style="text-align: center; font-weight: 400; font-size:35px">宇无公司报修记录</th>
+                    <th colspan="4" style="text-align: center; font-weight: 400; font-size:35px">宇无公司报修设备信息</th>
                 </tr>
                 <!--TODO: 建一个样式表 然后放入input 不要bander -->
                 <tr>
@@ -136,21 +139,16 @@
                         </select>
                     </th>
                 </tr>
-            </table>
-        </form>
-        <br>
-        <br>
-        <!--TODO: 修改客户信息链接-->
-        <a href="Confirmation.html" class="headding-list">生成客户确认单</a>
-        <br>
-        <br>
-        <a href="" class="headding-list">暂不生成客户确认单返回</a>
-        <br>
-        <div style="margin-bottom: 200px"></div>
+                </table>
+                	出现在表格右下角<input type="button" value="修改">
+                	 <a href="baoxiuselect1.html" class="headding-list">返回上级</a>
+            </form>
+           
+            <div style="margin-bottom: 200px"></div>
 
         </div>
 </main>
-</section>
+        </section>
 
 <footer class="footer  footer-defult">
     <div class="container-fluid">
@@ -164,13 +162,7 @@
 
 
         <div class="collapse footer-collapse">
-                <span class="navbar-bar">
-                    <a style="color: #f8f8f8;" href="/about">About</a>
-                    <a style="color: #f8f8f8;" href="/episodes">Episodes</a>
-                    <a style="color: #f8f8f8;" href="/contact">Contact</a>
-                    <a style="color: #f8f8f8;" href="/search">Search</a>
-                    <a style="color: #f8f8f8;" href="/subscribe">Subscribe</a>
-                </span>
+               
         </div>
     </div>
 </footer>

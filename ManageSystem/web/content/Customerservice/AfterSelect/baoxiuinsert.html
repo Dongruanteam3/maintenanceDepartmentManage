@@ -19,11 +19,11 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../../about/About.html">About</a>
-                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
-                    <a style="color: #5d594d;" href="/contact">Contact</a>
-                    <a style="color: #5d594d;" href="/search">Search</a>
-                    <a style="color: #5d594d;" href="../../Sign/Sign.html">SignIn</a>
+                    <a style="color: #5d594d;" href="../baoxiuguanli.html">首页</a>
+                    <a style="color: #5d594d;" href="baoxiuinsert.html">填写报修信息</a>
+                    <a style="color: #5d594d;" href="../baoxiuselect1.html">报修信息管理</a>
+                    <a style="color: #5d594d;" href="baoxiuquerendan.html">确认单管理</a>
+                    <a style="color: #5d594d;" href="../../about/About.html">登出</a>
                 </span>
         </div>
     </div>
@@ -41,7 +41,7 @@
 <main class="clearfix" role="main">
     <div class="container">
         <h6 class="heading">
-            报修管理
+            填写报修信息
         </h6>
         <br>
         <p style="font-size: 40px" class="heading headding2">维修设备信息</p>
@@ -49,7 +49,7 @@
         <form action="" id="weixiushebei" method="post">
             <table class="confermation-table" border="1px solid">
                 <tr>
-                    <th colspan="4" style="text-align: center; font-weight: 400; font-size:35px">宇无公司报修记录</th>
+                    <th colspan="4" style="text-align: center; font-weight: 400; font-size:35px">宇无公司报修设备信息</th>
                 </tr>
                 <!--TODO: 建一个样式表 然后放入input 不要bander -->
                 <tr>
@@ -57,8 +57,8 @@
                     <th>No.1001</th>
                     <!--根据流水号自动生成-->
                     <th>客户编号</th>
-                    <th>No.0001</th>
-                    <!--上一级查询出来的结果-->
+                    <th><input type="text" name="a1022" id="a1022"></th>
+                    
                 </tr>
                 <tr>
                     <th>产品类型<font color="red">*</font></th>
@@ -140,12 +140,7 @@
         </form>
         <br>
         <br>
-        <!--TODO: 修改客户信息链接-->
-        <a href="Confirmation.html" class="headding-list">生成客户确认单</a>
-        <br>
-        <br>
-        <a href="" class="headding-list">暂不生成客户确认单返回</a>
-        <br>
+        	出现在表格右下角<input type="button" value="提交">
         <div style="margin-bottom: 200px"></div>
 
         </div>
@@ -164,13 +159,7 @@
 
 
         <div class="collapse footer-collapse">
-                <span class="navbar-bar">
-                    <a style="color: #f8f8f8;" href="/about">About</a>
-                    <a style="color: #f8f8f8;" href="/episodes">Episodes</a>
-                    <a style="color: #f8f8f8;" href="/contact">Contact</a>
-                    <a style="color: #f8f8f8;" href="/search">Search</a>
-                    <a style="color: #f8f8f8;" href="/subscribe">Subscribe</a>
-                </span>
+              
         </div>
     </div>
 </footer>
