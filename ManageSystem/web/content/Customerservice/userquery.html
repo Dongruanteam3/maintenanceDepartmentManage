@@ -1,11 +1,12 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>运维人员首页</title>
+    <title>搜索用户</title>
     <link rel="stylesheet" type="text/css" href="../frame.css">
     <link rel="stylesheet" type="text/css" href="../about/tableNeeded.css">
-    <script src="opsNeeded.js"></script>
+    <link rel="stylesheet" type="text/css" href="./customerNeeded.css">
+    <link rel="stylesheet" type="text/css" href="../Sign/banerNeeded.css">
+    <script src="CusNeeded.js"></script>
 
 </head>
 <body>
@@ -19,18 +20,17 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="sign.html">登出</a>
-
+                    <a style="color: #5d594d;" href="customer.html">首页</a>
+                    
                 </span>
         </div>
     </div>
-
 </nav>
 <br>
 
 <div class="title">
     <div class="show-info" style="padding-top: 210px;">
-        <a href="http://www.baidu.com" class="midtitle">运维人员</a>
+        <a href="http://www.baidu.com" class="midtitle">客 服</a>
     </div>
 </div>
 <!--<div class="title">-->
@@ -38,35 +38,31 @@
 <!--</div>-->
 
 <main class="clearfix" role="main">
-    <section class="show-details">
-        <div class="container">
-            <h6 class="heading">
-                功能单:
-            </h6>
-            <p class="show-functions" id="function-detail">
-                <em>Rio</em>, 你好目前你能查询客户,维修,结算,库存, 人工检测维修状况 有权修改维修状态到23,检测记录,检测时间
-            </p>
-            <div id="cus-functions" class="show-functions">
-
+    <div class="container">
+        
+        
+        <p style="font-size: 40px" class="heading headding2">登记结算信息</p>
+        <br>
+        <form action="userfee.html">
+            <div style="margin-left: 20%;">
+                <!--TODO: 删除用户界面的ID编码-->
+                <label for="selectName">
+                    请输入维修号
+                </label>
+              
+                <input style="margin-left: 40px" class="sign-form-input" id="selectPhone" name="selectPhone" type="text">
             </div>
-            <!--TODO: 先完成各个链接-->
-            <div class="show-functionpics" >
-                <br>
-                <a href="userselect.html"><img src="../../res/png/function/客服.png" alt="查询客户" onmousemove="kehu()" width="13%"></a>
-                &nbsp; &nbsp;
-                <a href="repairshowAllrepireStatuEqual1.html"><img src="../../res/png/function/维修%20.png" alt="查询维修" onmousemove="weixiu()" width="13%"></a>
-                &nbsp; &nbsp;
-                <a href="repositoryselect.html"><img src="../../res/png/function/仓库.png" alt="查询库存" onmousemove="kucun()" width="13%"></a>
-                &nbsp; &nbsp;
-                <a href="settleselect.html"><img src="../../res/png/function/财务.png" alt="查询结算" onmousemove="jiesuan()" width="13%"></a>
-            </div>
-        </div>
-    </section>
+            <input type="submit" class="submit" value="Search"  onmousemove="deleteboChange(this)" onMouseOut="deleteboChangeback(this)" onClick="submit_sure()">
+        </form>
+        <br>
+        <!--TODO: 修改客户信息链接-->
 
+        <br>
+        <div style="margin-bottom: 200px"></div>
+
+    </div>
 </main>
-
-
-
+</section>
 
 <footer class="footer  footer-defult">
     <div class="container-fluid">

@@ -1,12 +1,12 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <title>搜索用户</title>
     <link rel="stylesheet" type="text/css" href="../frame.css">
     <link rel="stylesheet" type="text/css" href="../about/tableNeeded.css">
-    <link rel="stylesheet" type="text/css" href="../Customerservice/customerNeeded.css">
+    <link rel="stylesheet" type="text/css" href="./customerNeeded.css">
     <link rel="stylesheet" type="text/css" href="../Sign/banerNeeded.css">
+    <script src="CusNeeded.js"></script>
 
 </head>
 <body>
@@ -20,8 +20,8 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-
-                    <a style="color: #5d594d;" href="ops.html">首页</a>
+                    <a style="color: #5d594d;" href="settle.html">首页</a>
+                    <a style="color: #5d594d;" href="../Sign/Sign.html">退出</a>
                 </span>
         </div>
     </div>
@@ -30,7 +30,7 @@
 
 <div class="title">
     <div class="show-info" style="padding-top: 210px;">
-        <a href="http://www.baidu.com" class="midtitle">运维人员</a>
+        <a href="http://www.baidu.com" class="midtitle">财务</a>
     </div>
 </div>
 <!--<div class="title">-->
@@ -39,39 +39,37 @@
 
 <main class="clearfix" role="main">
     <div class="container">
-        <h6 class="heading">
-            客户信息管理
-        </h6>
-        <p style="font-size: 40px" class="heading headding2">查询客户信息</p>
+        
+        
+        <p style="font-size: 40px" class="heading headding2">查询结算信息</p>
         <br>
-        <form action="usersearchResult.html">
+        <form action="settle2.html">
             <div style="margin-left: 20%;">
                 <!--TODO: 删除用户界面的ID编码-->
                 <label for="selectName">
-                    客户姓名
+                    请输入日期
                 </label>
                 <br>
                 <input style="margin-left: 40px" class="sign-form-input" id="selectName" name="selectName" type="text">
                 <br>
                 <label for="selectId">
-                    客户编号
+                    请输入技师
                 </label>
                 <br>
                 <input style="margin-left: 40px" class="sign-form-input" id="selectId" name="selectId" type="text">
                 <br>
                 <label for="selectPhone">
-                    客户电话
+                    请输入维修编号
                 </label>
                 <br>
                 <input style="margin-left: 40px" class="sign-form-input" id="selectPhone" name="selectPhone" type="text">
             </div>
-            <input type="submit" class="submit" value="Search"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
+            <input type="submit" class="submit" value="搜索"  onmousemove="deleteboChange(this)" onMouseOut="deleteboChangeback(this)" onClick="submit_sure()">
         </form>
         <br>
         <!--TODO: 修改客户信息链接-->
 
         <br>
-
         <div style="margin-bottom: 200px"></div>
 
     </div>

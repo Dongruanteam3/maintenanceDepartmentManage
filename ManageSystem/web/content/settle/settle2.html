@@ -5,8 +5,9 @@
     <title>搜索结果</title>
     <link rel="stylesheet" type="text/css" href="../frame.css">
     <link rel="stylesheet" type="text/css" href="../about/tableNeeded.css">
-    <link rel="stylesheet" type="text/css" href="../Customerservice/customerNeeded.css">
+    <link rel="stylesheet" type="text/css" href="./customerNeeded.css">
     <link rel="stylesheet" type="text/css" href="../Sign/banerNeeded.css">
+    <script src="CusNeeded.js"></script>
 
     <style>
         a{
@@ -24,7 +25,11 @@
         </div>
 
         <div class="collapse navbar-collapse">
-                <span class="navbar-bar"><a style="color: #5d594d;" href="ops.html"> 首页  </a></span>
+                <span class="navbar-bar">
+                    <a style="color: #5d594d;" href="settle.html">首页</a>
+                    <a style="color: #5d594d;" href="settle1.html">上一级</a>
+                    <a style="color: #5d594d;" href="../Sign/Sign.html">退出</a>
+                </span>
         </div>
     </div>
 </nav>
@@ -32,7 +37,7 @@
 
 <div class="title">
     <div class="show-info" style="padding-top: 210px;">
-        <a href="http://www.baidu.com" class="midtitle">运维人员 </a>
+        <a href="http://www.baidu.com" class="midtitle">财务</a>
     </div>
 </div>
 <!--<div class="title">-->
@@ -42,61 +47,41 @@
 <main class="clearfix" role="main">
     <div class="container">
         <h6 class="heading">
-            仓库管理
+            财务查询
         </h6>
-        <p style="font-size: 40px"  class="heading headding2">查询备件信息</p>
+        <p style="font-size: 40px"  class="heading headding2">查询费用结果</p>
         <br>
-        <form action="" onsubmit="submit_sure()">
+       
             <div style="margin-left: 10%;">
                 <!--TODO: 删除用户界面的ID编码-->
-                <label for="selectName">
-                    备件名称
-                </label>
-                <input style="width: 210px; margin-right: 20px" class="sign-form-input" id="selectName" name="selectName" type="text">
-
-            </div>
-            <input type="submit"  class="submit selectresult" value="查询"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)">
-        </form>
-        <br>
-        <!--TODO: 希望能用Ajax实现动态查询-->
+               
         <table style="margin-top: -200px; margin-bottom: 100px" class="confermation-table" border="1px solid">
             <tr>
-                <th colspan="8" style="text-align: center; font-weight: 400; font-size:35px">备件搜索结果</th>
+                <th colspan="8" style="text-align: center; font-weight: 400; font-size:35px">费用查询结果</th>
             </tr>
-            <tr>
-              
-                <th>备件名称</th>
-                <th>库存数量</th>
-                <th>警戒数量</th>
-                <th>单价</th>
-                <th>库存状态</th>
-                
-            </tr>
-            <tr>
-               
-                <th>IE60</th>
-                <th>2</th>
-                <!--TODO: 如何获得详细信息-->
-                <th>15</th>
-                <th>1200</th>
-                <th>警戒</th>
-            </tr>
-            <tr>
-                
-                <th>GTX960</th>
-                <th>0</th>
-                <!--TODO: 如何获得详细信息-->
-                 <th>15</th>
-                <th>800</th>
-                <th>缺货</th>
-            </tr>
+            <tr><td>客户单号</td><td>客户姓名</td><td>维修编号</td><td>材料费用</td><td>维修费用</td><td>合计费用</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+           
+  
+        <br>
+        <div style="margin-bottom: 200px"></div>
+       </table>
 
-
-            <br>
-            <div style="margin-bottom: 200px"></div>
-        </table>
-
-        
+        <br>
+        <br>
+        <a href="userinsert.html" class="headding-list"></a>
+        <br>
+        <br>
+        <a href="userdelete.html" class="headding-list"></a>
+        <br>
+        <br>
+        <a href="userselect.html" class="headding-list"></a>
         <div style="height: 200px"></div>
     </div>
 </main>
@@ -126,3 +111,4 @@
 </footer>
 </body>
 </html>
+

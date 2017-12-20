@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
@@ -22,9 +21,10 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-
-
-                    <a style="color: #5d594d;" href="ops.html">首页</a></span>
+                    <a style="color: #5d594d;" href="customer.html">首页</a>
+                    <a style="color: #5d594d;" href="userquery.html">上一步</a>
+                    
+                </span>
         </div>
     </div>
 
@@ -33,7 +33,7 @@
 
 <div class="title">
     <div class="show-info" style="padding-top: 210px;">
-        <a href="http://www.baidu.com" class="midtitle">运维管理</a>
+        <a href="http://www.baidu.com" class="midtitle">结算管理</a>
     </div>
 </div>
 <!--<div class="title">-->
@@ -43,39 +43,13 @@
 <main class="clearfix" role="main">
     <div class="container">
         <h6 class="heading">
-            结算管理
+            登录结算信息
         </h6>
-            <br>
-            <p style="font-size: 40px" class="heading headding2">查询结算信息</p>
-            <br>
-            <form action="settlesearchResult.html">
-                <div style="margin-left: 10%;">
-                    <!--TODO: 删除用户界面的ID编码-->
-                            <label for="selectName">
-                                客户姓名
-                            </label>
-                            <input style="width: 210px; margin-right: 20px" class="sign-form-input" id="selectName" name="selectName" type="text">
-
-                            <label for="selectId">
-                                客户编号
-                            </label>
-                            <input style="width: 210px; margin-right: 20px" class="sign-form-input" id="selectId" name="selectId" type="text" value="1">
-
-                            <label for="selectrepairId">
-                                维修单号
-                            </label>
-                            <input style="width: 210px;" class="sign-form-input" id="selectrepairId" name="selectrepairId" type="text" >
-                </div>
-                <input type="submit"  class="submit selectresult" value="reSearch"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)">
-            </form>
-            <br>
-            <!--TODO: 修改客户信息链接-->
-
         <p style="font-size: 40px" class="heading headding2">结算信息</p>
         <br>
-        <table style="margin-top: 30px; margin-bottom: 50px" class="confermation-table" border="1px solid">
+        <table style="margin-top: 30px; margin-bottom: 100px" class="confermation-table" border="1px solid">
             <tr>
-                <th colspan="8" style="text-align: center; font-weight: 400; font-size:35px">维修完成未结算信息一览</th>
+                <th colspan="8" style="text-align: center; font-weight: 400; font-size:35px">结算费用</th>
             </tr>
             <tr>
                 <th>维修编号</th>
@@ -84,40 +58,30 @@
                 <th>保修承诺</th>
                 <th>注意事项</th>
                 <th>结算日期</th>
-                <th>是否结算</th>
             </tr>
             <tr>
                 <!--这从两个不同的集合中取出来的 可以实现作用到两个不同的页面-->
                 <!--搜索方式很简单 如果两个名字 就同时匹配-->
+                <form action="userfeeing.html" method="post">
                     <th>No.1001</th>
                     <!--我存的那个备件需求就是一个Map(String, int)每个维修编号如果对应一个类的话 我可以实现一个输出成字符串的方法-->
-                    <th>600</th>
-                    <th>500</th>
-                    <th>在全保期内</th>
-                    <th></th>
+                    <th>600(20*30通过查询维修编号获得)</th>
+                    <th>500(用集合来算 注意使用定价)</th>
+                    <th><input type="text" name="a1054" class="customer-form-input" value="即使有报修承诺,总价还是先不变,等会计结账的时候打折或者免单"></th>
+                    <th><input type="text" name="a1055" class="customer-form-input" value=""></th>
                     <th>当天时间(用Date)</th>
-                    <th>是</th>
+                    <th>
+                        <input type="image" style="margin-left: 10%; margin-top: 10px" height="25px" src="../../res/png/customerservice/详细信息.png" alt="继续/确认" onClick="doSubmit()" ></th>
+                </form>
             </tr>
 
-            <tr>
-                <!--这从两个不同的集合中取出来的 可以实现作用到两个不同的页面-->
-                <!--搜索方式很简单 如果两个名字 就同时匹配-->
-                    <th>No.1002</th>
-                    <!--我存的那个备件需求就是一个Map(String, int)每个维修编号如果对应一个类的话 我可以实现一个输出成字符串的方法-->
-                    <th>300</th>
-                    <th>500</th>
-                    <th>/th>
-                    <th></th>
-                    <th>当天时间(用Date)</th>
-                    <th>否</th>
-            </tr>
         </table>
-        <br>
 
-
+        
         <div style="margin-bottom: 200px"></div>
 
     </div>
+
 </main>
 
 
