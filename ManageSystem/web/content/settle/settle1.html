@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -21,8 +20,12 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-              
-                <a style="color: #5d594d;" href="customer.html">首页</a></span>
+                    <a style="color: #5d594d;" href="../about/About.html">About</a>
+                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
+                    <a style="color: #5d594d;" href="/contact">Contact</a>
+                    <a style="color: #5d594d;" href="/search">Search</a>
+                    <a style="color: #5d594d;" href="../Sign/Sign.html">SignIn</a>
+                </span>
         </div>
     </div>
 </nav>
@@ -39,38 +42,27 @@
 
 <main class="clearfix" role="main">
     <div class="container">
-        <h6 class="heading">
-            客户信息管理
-        </h6>
+        
+        
+        <p style="font-size: 40px" class="heading headding2">查询结算信息</p>
         <br>
-        <a href="userinsert.html" class="headding-list">添加客户</a>
-        <br>
-        <br>
-        <a href="searchResult.html" class="headding-list">删除指定客户</a>
-        <br>
-        <br>
-        <a href="searchResult.html" class="headding-list">修改指定信息</a>
-        <br>
-        <br>
-        <p style="font-size: 40px" class="heading headding2">查询客户信息</p>
-        <br>
-        <form action="searchResult.html">
+        <form action="settle2.html">
             <div style="margin-left: 20%;">
                 <!--TODO: 删除用户界面的ID编码-->
                 <label for="selectName">
-                    客户姓名
+                    请输入日期
                 </label>
                 <br>
                 <input style="margin-left: 40px" class="sign-form-input" id="selectName" name="selectName" type="text">
                 <br>
                 <label for="selectId">
-                    客户编号
+                    请输入技师
                 </label>
                 <br>
                 <input style="margin-left: 40px" class="sign-form-input" id="selectId" name="selectId" type="text">
                 <br>
                 <label for="selectPhone">
-                    客户电话
+                    请输入维修编号
                 </label>
                 <br>
                 <input style="margin-left: 40px" class="sign-form-input" id="selectPhone" name="selectPhone" type="text">
