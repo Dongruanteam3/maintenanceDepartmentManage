@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>报修管理</title>
+    <title>客户确认单</title>
     <link rel="stylesheet" type="text/css" href="../../frame.css">
     <link rel="stylesheet" type="text/css" href="../../about/tableNeeded.css">
 </head>
@@ -17,10 +17,10 @@
 
         <div class="collapse navbar-collapse">
                <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../customer.html">首页</a>
+                    <a style="color: #5d594d;" href="../baoxiuguanli.html">首页</a>
                     <a style="color: #5d594d;" href="baoxiuinsert.html">填写报修信息</a>
-                    <a style="color: #5d594d;" href="../baoxiuselect0.html">报修信息管理</a>
-                    <a style="color: #5d594d;" href="../baoxiuquerendan0.html">确认单管理</a>
+                    <a style="color: #5d594d;" href="../baoxiuselect1.html">报修信息管理</a>
+                    <a style="color: #5d594d;" href="baoxiuquerendan.html">确认单管理</a>
                     <a style="color: #5d594d;" href="../../about/About.html">登出</a>
                 </span>
         </div>
@@ -47,7 +47,7 @@
                 	确认单管理
             </h6>
             <br>
-         <form action="../baoxiuguanli.html">   
+            	请输入维修编号:<input type="text">
             <p class="heading headding2">客户确认表单</p>
             <table class="confermation-table" border="1px solid">
                 <tr>
@@ -91,7 +91,7 @@
                     <th colspan="2"></th>
                 </tr>
             </table>
-            	
+            	<input type="button" value="提交">
             <div class="confermation-message">
                 <span >接机签字:</span>
                 <span style="padding-left: 20%;">机主签字:</span>
@@ -99,10 +99,8 @@
                 <p style="font-size: 30px; margin-top: 10px; margin-bottom: 0px;">说明:</p>
                 @ 随机附件格式 : 内存:1221 外置声卡:233 AC配置:300 显卡GTX999 SSD:4TSun
             </div>
-            	<input type="submit" class="submit" value="打印"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)"">
-            	
+            	在表格右下角：<input type="button" value="提交"> <input type="button" value="打印">
             </div>
-            </form>
         </section>
 </main>
 
