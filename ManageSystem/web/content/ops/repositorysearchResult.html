@@ -24,7 +24,13 @@
         </div>
 
         <div class="collapse navbar-collapse">
-                <span class="navbar-bar"><a style="color: #5d594d;" href="ops.html"> 首页  </a></span>
+                <span class="navbar-bar">
+                    <a style="color: #5d594d;" href="../about/About.html">About</a>
+                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
+                    <a style="color: #5d594d;" href="/contact">Contact</a>
+                    <a style="color: #5d594d;" href="/search">Search</a>
+                    <a style="color: #5d594d;" href="../Sign/Sign.html">SignIn</a>
+                </span>
         </div>
     </div>
 </nav>
@@ -54,8 +60,13 @@
                 </label>
                 <input style="width: 210px; margin-right: 20px" class="sign-form-input" id="selectName" name="selectName" type="text">
 
+                <label for="selectId">
+                    维修编号
+                </label>
+                <input style="width: 210px; margin-right: 20px" class="sign-form-input" id="selectId" name="selectId" type="text" value="1">
+
             </div>
-            <input type="submit"  class="submit selectresult" value="查询"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)">
+            <input type="submit"  class="submit selectresult" value="reSearch"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)">
         </form>
         <br>
         <!--TODO: 希望能用Ajax实现动态查询-->
@@ -64,31 +75,24 @@
                 <th colspan="8" style="text-align: center; font-weight: 400; font-size:35px">备件搜索结果</th>
             </tr>
             <tr>
-              
+                <th>维修编号</th>
                 <th>备件名称</th>
-                <th>库存数量</th>
-                <th>警戒数量</th>
+                <th>数量</th>
                 <th>单价</th>
-                <th>库存状态</th>
-                
             </tr>
             <tr>
-               
+                <th>No.0001</th>
                 <th>IE60</th>
                 <th>2</th>
                 <!--TODO: 如何获得详细信息-->
-                <th>15</th>
                 <th>1200</th>
-                <th>警戒</th>
             </tr>
             <tr>
-                
+                <th>No.1001</th>
                 <th>GTX960</th>
                 <th>0</th>
                 <!--TODO: 如何获得详细信息-->
-                 <th>15</th>
                 <th>800</th>
-                <th>缺货</th>
             </tr>
 
 
@@ -96,7 +100,7 @@
             <div style="margin-bottom: 200px"></div>
         </table>
 
-        
+        <a href="ops.html" style="margin-left: 70%" class="headding-list">返回列表</a>
         <div style="height: 200px"></div>
     </div>
 </main>
