@@ -1,12 +1,10 @@
-<html>
+﻿<html>
 <head>
     <meta charset="utf-8">
-    <title>搜索用户</title>
+    <title>权限首页</title>
     <link rel="stylesheet" type="text/css" href="../frame.css">
     <link rel="stylesheet" type="text/css" href="../about/tableNeeded.css">
-    <link rel="stylesheet" type="text/css" href="./customerNeeded.css">
-    <link rel="stylesheet" type="text/css" href="../Sign/banerNeeded.css">
-    <script src="CusNeeded.js"></script>
+    <script src="settleNeeded.js"></script>
 
 </head>
 <body>
@@ -20,17 +18,18 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="settle.html">首页</a>
                     <a style="color: #5d594d;" href="../Sign/Sign.html">退出</a>
+                    
                 </span>
         </div>
     </div>
+
 </nav>
 <br>
 
 <div class="title">
     <div class="show-info" style="padding-top: 210px;">
-        <a href="http://www.baidu.com" class="midtitle">财务</a>
+        <a href="http://www.baidu.com" class="midtitle">权限</a>
     </div>
 </div>
 <!--<div class="title">-->
@@ -38,44 +37,54 @@
 <!--</div>-->
 
 <main class="clearfix" role="main">
-    <div class="container">
-        
-        
-        <p style="font-size: 40px" class="heading headding2">查询结算信息</p>
-        <br>
-        <form action="settle2.html">
-            <div style="margin-left: 20%;">
-                <!--TODO: 删除用户界面的ID编码-->
-                <label for="selectName">
-                    请输入日期
-                </label>
-                <br>
-                <input style="margin-left: 40px" class="sign-form-input" id="selectName" name="selectName" type="text">
-                <br>
-                <label for="selectId">
-                    请输入技师
-                </label>
-                <br>
-                <input style="margin-left: 40px" class="sign-form-input" id="selectId" name="selectId" type="text">
-                <br>
-                <label for="selectPhone">
-                    请输入维修编号
-                </label>
-                <br>
-                <input style="margin-left: 40px" class="sign-form-input" id="selectPhone" name="selectPhone" type="text">
+    <section class="show-details">
+        <div class="container">
+            <h6 class="heading">
+                功能单:
+            </h6>
+            <p class="show-functions" id="function-detail">
+                <em>Rio</em>
+            </p>
+            <div id="cus-functions" class="show-functions">
+
             </div>
-            <input type="submit" class="submit" value="Search"  onmousemove="deleteboChange(this)" onMouseOut="deleteboChangeback(this)" onClick="submit_sure()">
-        </form>
-        <br>
-        <!--TODO: 修改客户信息链接-->
+            <!--TODO: 先完成各个链接-->
+            
+        </div>
+    </section>
+    <section class="show-details">
+    <from action="BJ.html">
 
-        <br>
-        <div style="margin-bottom: 200px"></div>
+    <table class="confermation-table" border="1px solid">
+<tr>
+<td><h1 align="center">添&nbsp;&nbsp;&nbsp;加&nbsp;&nbsp;&nbsp;员&nbsp;&nbsp;&nbsp;工</h1></td>
+</tr>
+<tr>
+<td align="center"><h3>请输入姓名:</h3><input type="text" name="a11"></td>
+</tr>
+<tr>
+<td align="center"><h3>请输入密码:</h3><input type="text" name="a12"></td>
+</tr>
+<tr>
+<td align="center"><h3>请选择权限:</h3>
+<select>
+<option value="kefu">客服</option>
+<option value="jishu">技术工程师</option>
+<option value="renwu">任务调度员</option>
+<option value="qian">财务员</option>
+<option value="kuguan">库管员</option>
+<option value="yunying">运营监督员</option>
+</select>
+</td>
+</tr>
 
-    </div>
-</main>
+<tr>
+<td align="center"><a href="BJ.html"><input type="submit" value="提交"></a></td>
+</tr>
+</table>
+</from>
 </section>
-
+</main>
 <footer class="footer  footer-defult">
     <div class="container-fluid">
         <div class="show-copyright">
