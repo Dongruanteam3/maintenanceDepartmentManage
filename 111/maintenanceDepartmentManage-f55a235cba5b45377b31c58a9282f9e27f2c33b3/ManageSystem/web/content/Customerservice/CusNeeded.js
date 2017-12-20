@@ -25,7 +25,15 @@ function jiesuan() {
     document.getElementById("cus-functions").innerHTML = "<h6 style='font-size: 30px; text-shadow: 0 0 25px #fbf3e0 ;' class='heading'>生成结算清单</h6>"
 
 }
-
+function baoxiu1() {
+    document.getElementById("cus-functions").innerHTML = "<h6 style='font-size: 30px; text-shadow: 0 0 25px #fbf3e0 ;' class='heading'>填写报修设备表</h6>"
+}
+function baoxiu2() {
+    document.getElementById("cus-functions").innerHTML = "<h6 style='font-size: 30px; text-shadow: 0 0 25px #fbf3e0 ;' class='heading'>报修设备信息管理</h6>"
+}
+function baoxiu3() {
+    document.getElementById("cus-functions").innerHTML = "<h6 style='font-size: 30px; text-shadow: 0 0 25px #fbf3e0 ;' class='heading'>确认单管理</h6>"
+}
 //每次提交的确认
 function submit_sure(){
     var gnl=confirm("提交?");
