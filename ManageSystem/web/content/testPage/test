@@ -1,0 +1,18 @@
+<br>
+                <a href="userselect.html"><img src="../../res/png/customerservice/确认.png" alt="确认" onmousemove="queren()" width="13%"></a>
+                &nbsp; &nbsp;
+                <a href="userselect.html"><img src="../../res/png/customerservice/结算.png" alt="结算" onmousemove="jiesuan()" width="14%"></a>
+                &nbsp; &nbsp;
+                oo
+
+
+
+                kehu
+                             <a href="userinsert.html"><img src="../../res/png/customerservice/增加new.png" alt="增加" onmousemove="tianjia()" width="13%"></a>
+                &nbsp; &nbsp;
+                <a href="userdelete.html"><img src="../../res/png/customerservice/减少.png" alt="减少" onmousemove="jianshao()" width="13%"></a>
+                &nbsp; &nbsp;
+                <a href="userselect.html"><img src="../../res/png/customerservice/查询%20(1).png" alt="查询" onmousemove="chaxun()" width="13%"></a>
+                &nbsp; &nbsp;
+                <a href="userselect.html"><img src="../../res/png/customerservice/修改.png" alt="修改" onmousemove="xiugai()" width="13%"></a>
+                &nbsp; &nbsp;

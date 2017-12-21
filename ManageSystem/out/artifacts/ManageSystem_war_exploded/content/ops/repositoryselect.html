@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>搜索库存</title>
+    <link rel="stylesheet" type="text/css" href="../frame.css">
+    <link rel="stylesheet" type="text/css" href="../about/tableNeeded.css">
+    <link rel="stylesheet" type="text/css" href="../Customerservice/customerNeeded.css">
+    <link rel="stylesheet" type="text/css" href="../Sign/banerNeeded.css">
+    <script src="opsNeeded.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="../frame.html" >
+                <img height="75" width="75" src="../../res/png/brand.png" class="navbar-brand">
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+                <span class="navbar-bar">
+                    <a style="color: #5d594d;" href="ops.html">首页</a>
+                    <a style="color: #5d594d;" href="userselect.html">查询客户信息</a>
+                    <a style="color: #5d594d;" href="repairselect.html" >查询维修信息</a>
+                    <a style="color: #5d594d;" href="repositoryselect.html" class="selectPage">查询备件信息</a>
+                    <a style="color: #5d594d;" href="settleselect.html">查询结算信息</a>
+                    <a style="color: #5d594d;" href="../about/About.html">登出</a>
+                </span>
+        </div>
+    </div>
+</nav>
+<br>
+
+<div class="title">
+    <div class="show-info" style="padding-top: 210px;">
+        <a href="http://www.baidu.com" class="midtitle">运维人员</a>
+    </div>
+</div>
+<!--<div class="title">-->
+<!--<img src="../res/png/titleImage.jpg">-->
+<!--</div>-->
+
+<main class="clearfix" role="main">
+    <div class="container">
+        <h6 class="heading">
+            仓库管理
+        </h6>
+        <p style="font-size: 40px" class="heading headding2">查询库存信息</p>
+        <br>
+        <form action="repositorysearchResult.html">
+            <div style="margin-left: 20%;">
+                <!--TODO: 删除用户界面的ID编码-->
+                <label for="selectName">
+                    备件名称
+                </label>
+                <br>
+                <input style="margin-left: 40px" class="sign-form-input" id="selectName" name="selectName" type="text">
+                <br>
+                <label for="selectId">
+                    维修编号
+                </label>
+                <br>
+                <input style="margin-left: 40px" class="sign-form-input" id="selectId" name="selectId" type="text">
+            </div>
+            <input type="submit" class="submit submitlefter" value="搜索"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
+        </form>
+        <div style="margin-bottom: 200px"></div>
+
+    </div>
+</main>
+</section>
+
+<footer class="footer  footer-defult">
+    <div class="container-fluid">
+        <div class="show-copyright" style="margin-left: 5%">
+            <a class="footer-brand">Rio</a>
+            <p>
+                is © 2017 Team3
+            </p>
+            <p>宇宙无敌维修公司</p>
+        </div>
+
+
+        <div class="collapse footer-collapse">
+                <span class="navbar-bar">
+                  <div class="list-of-socials" style="margin-top: 50px">
+                      <a href="https://github.com/Dongruanteam3">
+                          <img class="socialsicon" src="../../res/png/GitHub-Mark.png">
+                      </a>
+                      <a href="http://qun.qzone.qq.com/group#!/562921687/share">
+                          <img class="socialsicon" src="../../res/png/qq.png">
+                      </a>
+                  </div>
+                </span>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

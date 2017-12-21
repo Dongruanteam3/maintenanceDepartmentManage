@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>维护报修</title>
+    <link rel="stylesheet" type="text/css" href="../../frame.css">
+    <link rel="stylesheet" type="text/css" href="../../about/tableNeeded.css">
+    <link rel="stylesheet" type="text/css" href="../customerNeeded.css">
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="../../frame.html" >
+                <img height="75" width="75" src="../../../res/png/brand.png" class="navbar-brand">
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+                <span class="navbar-bar">
+                    <a style="color: #5d594d;" href="../customer.html">首页</a>
+                    <a style="color: #5d594d;" href="records.html" class="selectPage">写报修信息</a>
+                    <a style="color: #5d594d;" href="recordsselect.html">维护报修信息</a>
+                    <a style="color: #5d594d;" href="ConfirmationPrint.html">打印表单</a>
+                    <a style="color: #5d594d;" href="submit.html">提交表单</a>
+                    <a style="color: #5d594d;" href="../../about/About.html">登出</a>
+                </span>
+        </div>
+    </div>
+
+</nav>
+<br>
+<div class="title">
+    <div class="show-info" style="padding-top: 210px;">
+        <a href="http://www.baidu.com" class="midtitle">客 服</a>
+    </div>
+</div>
+<!--<div class="title">-->
+<!--<img src="../res/png/titleImage.jpg">-->
+<!--</div>-->
+<main class="clearfix" role="main">
+    <div class="container">
+        <h6 class="heading">
+            报修管理
+        </h6>
+        <br>
+        <p style="font-size: 40px" class="heading headding2">写报修记录</p>
+        <br>
+        <form action="" id="weixiushebei" method="post">
+            <table class="confermation-table" border="1px solid">
+                <tr>
+                    <th colspan="4" style="text-align: center; font-weight: 400; font-size:35px">宇无公司报修记录</th>
+                </tr>
+                <tr>
+                    <th>维修编号</th>
+                    <th>No.1001</th>
+                    <!--根据流水号自动生成-->
+                    <th>客户编号</th>
+                    <!--TODO: 用AJEX实现检测编号-->
+                    <th><input type="text" class="customer-form-input"></th>
+                    <!--上一级查询出来的结果-->
+                </tr>
+                <tr>
+                    <th>产品类型<font color="red">*</font></th>
+                    <th><select name="a1023" id="a1023">
+                        <option value="1">台式机</option>
+                        <option value="2">笔记本</option>
+                        <option value="3">投影仪</option>
+                        <option value="4">打印机</option>
+                        <option value="5">其他</option>
+                       </select>
+                    </th>
+                    <th>机器品牌 </th>
+                    <th><input type="text" name="a1024" id="a1024" class="customer-form-input"></th>
+                </tr>
+                <tr>
+                    <th>机器型号 </th>
+                    <th><input type="text" name="a1025" id="a1025" class="customer-form-input"></th>
+
+                    <th>系列号 </th>
+                    <th><input type="text" name="a1026" id="a1026" class="customer-form-input"></th>
+                </tr>
+                <tr>
+                    <th>HHD </th>
+                    <th><input type="text" name="a10213" id="a10213" class="customer-form-input"></th>
+                    <th>内存 </th>
+                    <th><input type="text" name="a10214" id="a10214" class="customer-form-input"></th>
+                </tr>
+                <tr>
+                    <th>外置PC卡</th>
+                    <th><input type="text" name="a10215" id="a10215" class="customer-form-input"></th>
+                    <th>AC适配器 </th>
+                    <th><input type="text" name="a10216" id="a10216" class="customer-form-input"></th>
+                </tr>
+                <tr>
+                    <th>电池</th>
+                    <th><input type="text" name="a10217" id="a10217" class="customer-form-input"></th>
+                    <th>外接光驱</th>
+                    <th><input type="text" name="a10218" id="a10218" class="customer-form-input"></th>
+                </tr>
+                <tr>
+                    <th>外接软驱</th>
+                    <th><input type="text" name="a10219" id="a10219" class="customer-form-input"></th>
+                    <th>开机口令</th>
+                    <th><input type="text" name="a10211" id="a10211" class="customer-form-input"></th>
+                </tr>
+                <tr>
+                    <th colspan="4" style="text-align: center">机器故障现象 <font color="red">*</font> </th>
+                </tr>
+                <tr>
+                    <th colspan="4"><textarea style="overflow:auto; width: 95%; margin-top: 10px" name="a1028" id="a1028" class="customer-form-input"></textarea></th>
+                </tr>
+                <tr>
+                    <th colspan="2">缺少零件</th>
+                    <th>故障类型<font color="red">*</font></th>
+                    <th><select name="a1029" id="a1029">
+                        <option value="1">固定性故障</option>
+                        <option value="2">间隙性故障</option>
+                    </select></th>
+                </tr>
+                <tr>
+                    <th colspan="4"><input type="text" name="a1027" id="a1027" class="customer-form-input"></th>
+                </tr>
+                <tr>
+                    <th>预估价格</th>
+                    <th><input type="text" name="a10222" id="a10222" class="customer-form-input"></th>
+                    <th>报修时间</th>
+                    <th><input type="text" name="a10221" id="a10221" class="customer-form-input"></th>
+                </tr>
+                <tr>
+                    <th>报修状态 <font color="red">*</font></th>
+                    <th><select name="a10223" id="a10223">
+                            <option value="0">未打印</option>
+                            <option value="1">打印</option>
+                            <option value="2">提交</option>
+                        </select>
+                    </th>
+                </tr>
+            </table>
+        </form>
+        <br>
+        <br>
+
+        <a href="Confirmation.html" class="headding-list">打印客户确认单</a>
+        <div style="margin-bottom: 200px"></div>
+
+        </div>
+</main>
+
+<footer class="footer  footer-defult">
+    <div class="container-fluid">
+        <div class="show-copyright" style="margin-left: 5%">
+            <a class="footer-brand">Rio</a>
+            <p>
+                is © 2017 Team3
+            </p>
+            <p>宇宙无敌维修公司</p>
+        </div>
+
+
+        <div class="collapse footer-collapse">
+                <span class="navbar-bar">
+                  <div class="list-of-socials" style="margin-top: 50px">
+                      <a href="https://github.com/Dongruanteam3">
+                          <img class="socialsicon" src="../../../res/png/GitHub-Mark.png">
+                      </a>
+                      <a href="http://qun.qzone.qq.com/group#!/562921687/share">
+                          <img class="socialsicon" src="../../../res/png/qq.png">
+                      </a>
+                  </div>
+                </span>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

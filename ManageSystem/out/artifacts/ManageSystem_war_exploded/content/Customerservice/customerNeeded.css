@@ -1,0 +1,25 @@
+
+.customer-form-input {
+    border: 0;
+    background: #3f3f3f;
+    color: white;
+    width: 90%;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.headding-list{
+    font-size: 30px;
+    margin-left: 10%;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 5px #fbf3e0;
+}
+
+.delete-message{
+    margin-left: 50%;
+}
