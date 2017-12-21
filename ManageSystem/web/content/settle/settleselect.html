@@ -1,0 +1,107 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>搜索结算表</title>
+    <link rel="stylesheet" type="text/css" href="../frame.css">
+    <link rel="stylesheet" type="text/css" href="../about/tableNeeded.css">
+    <link rel="stylesheet" type="text/css" href="../Customerservice/customerNeeded.css">
+    <link rel="stylesheet" type="text/css" href="../Sign/banerNeeded.css">
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="../frame.html" >
+                <img height="75" width="75" src="../../res/png/brand.png" class="navbar-brand">
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+                <span class="navbar-bar">
+                    <a style="color: #5d594d;" href="../about/About.html">About</a>
+                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
+                    <a style="color: #5d594d;" href="/contact">Contact</a>
+                    <a style="color: #5d594d;" href="/search">Search</a>
+                    <a style="color: #5d594d;" href="../Sign/Sign.html">SignIn</a>
+                </span>
+        </div>
+    </div>
+</nav>
+<br>
+
+<div class="title">
+    <div class="show-info" style="padding-top: 210px;">
+        <a href="http://www.baidu.com" class="midtitle">客 服</a>
+    </div>
+</div>
+<!--<div class="title">-->
+<!--<img src="../res/png/titleImage.jpg">-->
+<!--</div>-->
+
+<main class="clearfix" role="main">
+    <div class="container">
+        <h6 class="heading">
+            账单信息管理
+        </h6>
+
+        <br>
+        <p style="font-size: 40px" class="heading headding2">查询账单信息</p>
+        <br>
+        <form action="searchResult.html">
+            <div style="margin-left: 20%;">
+                <!--TODO: 删除用户界面的ID编码-->
+                <label for="selectName">
+                    客户姓名
+                </label>
+                <br>
+                <input style="margin-left: 40px" class="sign-form-input" id="selectName" name="selectName" type="text">
+                <br>
+                <label for="selectId">
+                    客户编号
+                </label>
+                <br>
+                <input style="margin-left: 40px" class="sign-form-input" id="selectId" name="selectId" type="text">
+                <br>
+                <label for="selectrepireId">
+                    维修编号
+                </label>
+                <br>
+                <input style="margin-left: 40px" class="sign-form-input" id="selectrepireId" name="selectrepireId" type="text">
+            </div>
+            <input type="submit" class="submit" value="Search"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
+        </form>
+        <br>
+        <!--TODO: 修改客户信息链接-->
+
+        <br>
+        <div style="margin-bottom: 200px"></div>
+
+    </div>
+</main>
+</section>
+
+<footer class="footer  footer-defult">
+    <div class="container-fluid">
+        <div class="show-copyright">
+            <a class="footer-brand">Rio</a>
+            <p>
+                is © 2017 Team3
+            </p>
+            <p>宇宙无敌维修公司</p>
+        </div>
+
+
+        <div class="collapse footer-collapse">
+                <span class="navbar-bar">
+                    <a style="color: #f8f8f8;" href="/about">About</a>
+                    <a style="color: #f8f8f8;" href="/episodes">Episodes</a>
+                    <a style="color: #f8f8f8;" href="/contact">Contact</a>
+                    <a style="color: #f8f8f8;" href="/search">Search</a>
+                    <a style="color: #f8f8f8;" href="/subscribe">Subscribe</a>
+                </span>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
