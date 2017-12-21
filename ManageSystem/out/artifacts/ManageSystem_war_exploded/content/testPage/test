@@ -1,77 +1,18 @@
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title></title>
-</head>
-<body>
-	<h1 align="center">报修信息表</h1>
-	<form action=""  method="post">
-		<table align="center" width="500" height="20" >
- 			<tr><td align="left" width="200"><b>注意:<font color=red>*</font>为必填项</b></td></tr>
- 		</table>
-		<table align="center" width="500" height="200" border="1" cellspacing="0" >
-			<tr>
-				<td>维修编号<font color="red">*</font></td><td></td>
-				<td>客户编号<font color="red">*</font></td><td></td>
-			</tr>
-			<tr>
-				<td>产品类型<font color="red">*</font></td><td><select name="a1023" id="a1023">
-							<option value="1">台式机</option>
-							<option value="2">笔记本</option>
-							<option value="3">投影仪</option>
-							<option value="4">打印机</option>
-							<option value="5">其他</option>
-						</select>
-				</td>
-				<td>机器品牌</td><td><input type="text" name="a1024" id="a1024">
-				</td>
-			</tr>
-			<tr>
-				<td>机器型号</td><td><input type="text" name="a1025"id="a1025">
-				</td>
-				<td>系列号</td><td><input type="text" name="a1026"id="a1026">
-				</td>
-			</tr>
-			<tr>
-				<td>HDD</td><td><input type="text" name="a10213"id="a10213">
-				</td>
-				<td>内存</td><td><input type="text" name="a10214"id="a10214">
-				</td>
-			</tr>
-			<tr>
-				<td>外置PC卡</td><td><input type="text" name="a10215" id="a10215">
-				</td>
-				<td>AC适配器</td><td><input type="text" name="a10216"id="a10216">
-				</td>
-			</tr>
-			<tr>
-				<td>电池</td><td><input type="text" name="a10217"id="a10217"></td>
-				<td>外接光驱</td><td><input type="text" name="a10218"id="a10218"></td>
-			</tr>
-			<tr>
-				<td>外接软驱</td><td><input type="text" name="a10219"id="a10219"></td>
-				<td>开机口令</td><td><input type="text" name="a10211"id="a10211"></td>
-			</tr>
-			<tr>
-				<td colspan="4" align="center">机器故障现象<font color="red">*</font></td>
-			</tr>
-			<tr>
-				<td colspan="4"><textarea cols="100%" rows="1" name="a1028" id="a1028"></textarea></td>
-			</tr>
-			<tr><td>缺少零件</td><td><input type="text"></td><td>故障类型<font color="red">*</font></td><td><select name="a1029" id="a1029">
-						<option value="1">固定性故障</option>
-						<option value="2">间隙性故障</option>
-			</select></td></tr>
-			<tr><td>预估价格</td><td><input type="text" name="a10222" id="a10222"></td></tr>
-			<tr><td>报修时间</td><td><input type="text" name="a10221" id="a10221" ></td><td>报修状态<font color="red">*</font></td><td><select name="a10223" id="a10223">
-						<option value="0">未打印</option>
-						<option value="1">打印</option>
-						<option value="2">提交</option>
-			</select></td></tr>
-		</table>
-		<table align="center">
-					<tr><td align="left"></td><td>&nbsp;</td><td><input type="submit" value="提交" align="right"></td><td><input type="reset" value="重置"></td></tr>
-		</table>
-	</form>
-</body>
-</html>
+<br>
+                <a href="userselect.html"><img src="../../res/png/customerservice/确认.png" alt="确认" onmousemove="queren()" width="13%"></a>
+                &nbsp; &nbsp;
+                <a href="userselect.html"><img src="../../res/png/customerservice/结算.png" alt="结算" onmousemove="jiesuan()" width="14%"></a>
+                &nbsp; &nbsp;
+                oo
+
+
+
+                kehu
+                             <a href="userinsert.html"><img src="../../res/png/customerservice/增加new.png" alt="增加" onmousemove="tianjia()" width="13%"></a>
+                &nbsp; &nbsp;
+                <a href="userdelete.html"><img src="../../res/png/customerservice/减少.png" alt="减少" onmousemove="jianshao()" width="13%"></a>
+                &nbsp; &nbsp;
+                <a href="userselect.html"><img src="../../res/png/customerservice/查询%20(1).png" alt="查询" onmousemove="chaxun()" width="13%"></a>
+                &nbsp; &nbsp;
+                <a href="userselect.html"><img src="../../res/png/customerservice/修改.png" alt="修改" onmousemove="xiugai()" width="13%"></a>
+                &nbsp; &nbsp;

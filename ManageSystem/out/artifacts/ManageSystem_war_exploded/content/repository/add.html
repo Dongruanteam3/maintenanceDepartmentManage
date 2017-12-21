@@ -22,11 +22,11 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../about/About.html">About</a>
-                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
-                    <a style="color: #5d594d;" href="/contact">Contact</a>
-                    <a style="color: #5d594d;" href="/search">Search</a>
-                    <a style="color: #5d594d;" href="../Sign/Sign.html">SignIn</a>
+                    <a style="color: #5d594d;" href="keeper.html">首页</a>
+                    <a style="color: #5d594d;" href="addnew.html" class="selectPage">入库</a>
+                    <a style="color: #5d594d;" href="repairNeeded.html">出库</a>
+                    <a style="color: #5d594d;" href="select.html">查询库存</a>
+                    <a style="color: #5d594d;" href="../Sign/Sign.html">登出</a>
                 </span>
         </div>
     </div>
@@ -36,7 +36,7 @@
 
 <div class="title">
     <div class="show-info" style="padding-top: 210px;">
-        <a href="http://www.baidu.com" class="midtitle">仓库管理</a>
+        <a href="http://www.baidu.com" class="midtitle">仓库管理员</a>
     </div>
 </div>
 <!--<div class="title">-->
@@ -48,7 +48,7 @@
         <h6 class="heading">
             仓库管理
         </h6>
-        <p style="font-size: 40px" class="heading headding2">入库信息</p>
+        <p style="font-size: 40px" class="heading headding2">单次维修单号的入库信息</p>
         <br>
         <table style="margin-top: 30px; margin-bottom: 100px" class="confermation-table" border="1px solid">
             <tr>
@@ -78,7 +78,7 @@
             </tr>
            <tr>
             <tr>
-                <form action="addnew.html" method="get">
+                <form action="addnewforout.html" method="get">
                     <th>Mac适配器</th>
                     <!--我存的那个备件需求就是一个Map(String, int)每个维修编号如果对应一个类的话 我可以实现一个输出成字符串的方法-->
                     <th></th>
@@ -91,8 +91,9 @@
             </tr>
            </tr>
         </table>
-
-        <a href="keeper.html" style="font-size: 40px; color: white" class="heading headding2">返回到功能界面</a>
+        <div class="innerlink">
+        <a href="repairNeeded.html" style="font-size: 30px; color: white" class="heading headding2">˚∆˚返回上级</a>
+        </div>
         <div style="margin-bottom: 200px"></div>
 
     </div>
@@ -100,10 +101,9 @@
 </main>
 
 
-
 <footer class="footer  footer-defult">
     <div class="container-fluid">
-        <div class="show-copyright">
+        <div class="show-copyright" style="margin-left: 5%">
             <a class="footer-brand">Rio</a>
             <p>
                 is © 2017 Team3
@@ -114,14 +114,18 @@
 
         <div class="collapse footer-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #f8f8f8;" href="/about">About</a>
-                    <a style="color: #f8f8f8;" href="/episodes">Episodes</a>
-                    <a style="color: #f8f8f8;" href="/contact">Contact</a>
-                    <a style="color: #f8f8f8;" href="/search">Search</a>
-                    <a style="color: #f8f8f8;" href="/subscribe">Subscribe</a>
+                  <div class="list-of-socials" style="margin-top: 50px">
+                      <a href="https://github.com/Dongruanteam3">
+                          <img class="socialsicon" src="../../res/png/GitHub-Mark.png">
+                      </a>
+                      <a href="http://qun.qzone.qq.com/group#!/562921687/share">
+                          <img class="socialsicon" src="../../res/png/qq.png">
+                      </a>
+                  </div>
                 </span>
         </div>
     </div>
 </footer>
+
 </body>
 </html>

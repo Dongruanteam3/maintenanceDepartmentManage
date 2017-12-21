@@ -1,12 +1,13 @@
+<!--给出库阶段用的会返还给这个维修所需要的配件-->
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <title>入库流水</title>
     <link rel="stylesheet" type="text/css" href="../frame.css">
-    <link rel="stylesheet" type="text/css" href="../Customerservice/customerNeeded.css">
     <link rel="stylesheet" type="text/css" href="../about/tableNeeded.css">
     <link rel="stylesheet" type="text/css" href="../Sign/banerNeeded.css">
+    <link rel="stylesheet" type="text/css" href="../Customerservice/customerNeeded.css">
 
     <script src="keeperNeeded.js"></script>
 
@@ -22,11 +23,11 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../about/About.html">About</a>
-                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
-                    <a style="color: #5d594d;" href="/contact">Contact</a>
-                    <a style="color: #5d594d;" href="/search">Search</a>
-                    <a style="color: #5d594d;" href="../Sign/Sign.html">SignIn</a>
+                    <a style="color: #5d594d;" href="keeper.html">首页</a>
+                    <a style="color: #5d594d;" href="addnew.html" class="selectPage">入库</a>
+                    <a style="color: #5d594d;" href="repairNeeded.html">出库</a>
+                    <a style="color: #5d594d;" href="select.html">查询库存</a>
+                    <a style="color: #5d594d;" href="../Sign/Sign.html">登出</a>
                 </span>
         </div>
     </div>
@@ -36,7 +37,7 @@
 
 <div class="title">
     <div class="show-info" style="padding-top: 210px;">
-        <a href="http://www.baidu.com" class="midtitle">仓库管理</a>
+        <a href="http://www.baidu.com" class="midtitle">仓库管理员</a>
     </div>
 </div>
 <!--<div class="title">-->
@@ -50,10 +51,10 @@
         </h6>
         <p style="font-size: 40px" class="heading headding2">入库流水</p>
         <br>
-        <form action="" method="post">
-        <table style="margin-top: 30px; margin-bottom: 100px" class="confermation-table" border="1px solid">
+        <form action="add.html" method="post">
+        <table style="margin-top: 30px;" class="confermation-table" border="1px solid">
             <tr>
-                <th colspan="8" style="text-align: center; font-weight: 400; font-size:35px">入库流水</th>
+                <th colspan="4" style="text-align: center; font-weight: 400; font-size:35px">入库流水</th>
             </tr>
             <tr>
                 <th>备件名称</th>
@@ -75,11 +76,12 @@
                 <th>传入当前时间</th>
             </tr>
         </table>
-            <input style="margin-top: -10px" type="submit" class="submit" value="Submit"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
+            <input  type="submit" class="submit" value="提交"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
 
         </form>
+        <div class="innerlink">
 
-        <a href="add.html" style="font-size: 40px; color: white" class="heading headding2">返回到入库界面</a>
+        </div>
 
         <div style="margin-bottom: 200px"></div>
 
@@ -91,7 +93,7 @@
 
 <footer class="footer  footer-defult">
     <div class="container-fluid">
-        <div class="show-copyright">
+        <div class="show-copyright" style="margin-left: 5%">
             <a class="footer-brand">Rio</a>
             <p>
                 is © 2017 Team3
@@ -102,11 +104,14 @@
 
         <div class="collapse footer-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #f8f8f8;" href="/about">About</a>
-                    <a style="color: #f8f8f8;" href="/episodes">Episodes</a>
-                    <a style="color: #f8f8f8;" href="/contact">Contact</a>
-                    <a style="color: #f8f8f8;" href="/search">Search</a>
-                    <a style="color: #f8f8f8;" href="/subscribe">Subscribe</a>
+                  <div class="list-of-socials" style="margin-top: 50px">
+                      <a href="https://github.com/Dongruanteam3">
+                          <img class="socialsicon" src="../../res/png/GitHub-Mark.png">
+                      </a>
+                      <a href="http://qun.qzone.qq.com/group#!/562921687/share">
+                          <img class="socialsicon" src="../../res/png/qq.png">
+                      </a>
+                  </div>
                 </span>
         </div>
     </div>

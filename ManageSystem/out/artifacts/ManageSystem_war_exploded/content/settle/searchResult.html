@@ -22,11 +22,9 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../about/About.html">About</a>
-                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
-                    <a style="color: #5d594d;" href="/contact">Contact</a>
-                    <a style="color: #5d594d;" href="/search">Search</a>
-                    <a style="color: #5d594d;" href="../Sign/Sign.html">SignIn</a>
+                    <a style="color: #5d594d;" href="settle.html" >首页</a>
+                    <a style="color: #5d594d;" href="settleselect.html" class="selectPage">查询结算信息</a>
+                    <a style="color: #5d594d;" href="../about/About.html">登出</a>
                 </span>
         </div>
     </div>
@@ -54,22 +52,22 @@
             <form action="searchResult.html">
                 <div style="margin-left: 10%;">
                     <!--TODO: 删除用户界面的ID编码-->
-                            <label for="selectName">
-                                客户姓名
+                            <label for="selecttime">
+                                结算日期
                             </label>
-                            <input style="width: 210px; margin-right: 20px" class="sign-form-input" id="selectName" name="selectName" type="text">
+                            <input style="width: 210px; margin-right: 20px" class="sign-form-input" id="selecttime" name="selecttime" type="text">
 
                             <label for="selectId">
-                                客户编号
+                                维修编号
                             </label>
                             <input style="width: 210px; margin-right: 20px" class="sign-form-input" id="selectId" name="selectId" type="text" value="1">
 
                             <label for="selectrepairId">
-                                维修单号
+                                技师编号
                             </label>
                             <input style="width: 210px;" class="sign-form-input" id="selectrepairId" name="selectrepairId" type="text" >
                 </div>
-                <input type="submit"  class="submit selectresult" value="reSearch"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)">
+                <input type="submit"  class="submit selectresult" value="搜索"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)">
             </form>
             <br>
             <!--TODO: 修改客户信息链接-->
@@ -82,17 +80,20 @@
             </tr>
             <tr>
                 <th>维修编号</th>
+                <th>技师编号</th>
                 <th>维修费用</th>
                 <th>材料费用</th>
                 <th>保修承诺</th>
                 <th>注意事项</th>
                 <th>结算日期</th>
                 <th>是否结算</th>
+                <th>详细信息</th>
             </tr>
             <tr>
                 <!--这从两个不同的集合中取出来的 可以实现作用到两个不同的页面-->
                 <!--搜索方式很简单 如果两个名字 就同时匹配-->
                     <th>No.1001</th>
+                    <th>00001</th>
                     <!--我存的那个备件需求就是一个Map(String, int)每个维修编号如果对应一个类的话 我可以实现一个输出成字符串的方法-->
                     <th>600</th>
                     <th>500</th>
@@ -100,12 +101,14 @@
                     <th></th>
                     <th>当天时间(用Date)</th>
                     <th>是</th>
+                    <th><a href="settleConform.html"><img style="margin-left: 30%; margin-top: 10px" height="30px" src="../../res/png/customerservice/详细信息.png" alt="详细信息"></a></th>
             </tr>
 
             <tr>
                 <!--这从两个不同的集合中取出来的 可以实现作用到两个不同的页面-->
                 <!--搜索方式很简单 如果两个名字 就同时匹配-->
                     <th>No.1002</th>
+                    <th>00001</th>
                     <!--我存的那个备件需求就是一个Map(String, int)每个维修编号如果对应一个类的话 我可以实现一个输出成字符串的方法-->
                     <th>300</th>
                     <th>500</th>
@@ -113,21 +116,19 @@
                     <th></th>
                     <th>当天时间(用Date)</th>
                     <th>否</th>
+                    <th><a href="settleConform.html"><img style="margin-left: 30%; margin-top: 10px" height="30px" src="../../res/png/customerservice/详细信息.png" alt="详细信息"></a></th>
             </tr>
         </table>
 
-        <a href="settle.html" style="font-size: 40px; color: white" class="heading headding2">返回到功能界面</a>
         <div style="margin-bottom: 200px"></div>
 
     </div>
 
 </main>
 
-
-
 <footer class="footer  footer-defult">
     <div class="container-fluid">
-        <div class="show-copyright">
+        <div class="show-copyright" style="margin-left: 5%">
             <a class="footer-brand">Rio</a>
             <p>
                 is © 2017 Team3
@@ -138,11 +139,14 @@
 
         <div class="collapse footer-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #f8f8f8;" href="/about">About</a>
-                    <a style="color: #f8f8f8;" href="/episodes">Episodes</a>
-                    <a style="color: #f8f8f8;" href="/contact">Contact</a>
-                    <a style="color: #f8f8f8;" href="/search">Search</a>
-                    <a style="color: #f8f8f8;" href="/subscribe">Subscribe</a>
+                  <div class="list-of-socials" style="margin-top: 50px">
+                      <a href="https://github.com/Dongruanteam3">
+                          <img class="socialsicon" src="../../res/png/GitHub-Mark.png">
+                      </a>
+                      <a href="http://qun.qzone.qq.com/group#!/562921687/share">
+                          <img class="socialsicon" src="../../res/png/qq.png">
+                      </a>
+                  </div>
                 </span>
         </div>
     </div>

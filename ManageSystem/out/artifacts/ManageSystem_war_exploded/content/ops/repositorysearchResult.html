@@ -7,12 +7,8 @@
     <link rel="stylesheet" type="text/css" href="../about/tableNeeded.css">
     <link rel="stylesheet" type="text/css" href="../Customerservice/customerNeeded.css">
     <link rel="stylesheet" type="text/css" href="../Sign/banerNeeded.css">
+    <script src="opsNeeded.js"></script>
 
-    <style>
-        a{
-            color: white;
-        }
-    </style>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -25,11 +21,12 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../about/About.html">About</a>
-                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
-                    <a style="color: #5d594d;" href="/contact">Contact</a>
-                    <a style="color: #5d594d;" href="/search">Search</a>
-                    <a style="color: #5d594d;" href="../Sign/Sign.html">SignIn</a>
+                    <a style="color: #5d594d;" href="ops.html">首页</a>
+                    <a style="color: #5d594d;" href="userselect.html">查询客户信息</a>
+                    <a style="color: #5d594d;" href="repairselect.html" >查询维修信息</a>
+                    <a style="color: #5d594d;" href="repositoryselect.html" class="selectPage">查询备件信息</a>
+                    <a style="color: #5d594d;" href="settleselect.html">查询结算信息</a>
+                    <a style="color: #5d594d;" href="../about/About.html">登出</a>
                 </span>
         </div>
     </div>
@@ -52,8 +49,8 @@
         </h6>
         <p style="font-size: 40px"  class="heading headding2">查询备件信息</p>
         <br>
-        <form action="" onsubmit="submit_sure()">
-            <div style="margin-left: 10%;">
+        <form action="repairsearchResult.html">
+            <div style="margin-left: 10%; margin-bottom: -10px">
                 <!--TODO: 删除用户界面的ID编码-->
                 <label for="selectName">
                     备件名称
@@ -64,13 +61,12 @@
                     维修编号
                 </label>
                 <input style="width: 210px; margin-right: 20px" class="sign-form-input" id="selectId" name="selectId" type="text" value="1">
-
             </div>
-            <input type="submit"  class="submit selectresult" value="reSearch"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)">
+            <input type="submit"  class="submit" value="搜索"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)">
         </form>
         <br>
         <!--TODO: 希望能用Ajax实现动态查询-->
-        <table style="margin-top: -200px; margin-bottom: 100px" class="confermation-table" border="1px solid">
+        <table style="margin-top: -100px; margin-bottom: 100px" class="confermation-table" border="1px solid">
             <tr>
                 <th colspan="8" style="text-align: center; font-weight: 400; font-size:35px">备件搜索结果</th>
             </tr>
@@ -84,14 +80,12 @@
                 <th>No.0001</th>
                 <th>IE60</th>
                 <th>2</th>
-                <!--TODO: 如何获得详细信息-->
                 <th>1200</th>
             </tr>
             <tr>
                 <th>No.1001</th>
                 <th>GTX960</th>
                 <th>0</th>
-                <!--TODO: 如何获得详细信息-->
                 <th>800</th>
             </tr>
 
@@ -100,15 +94,15 @@
             <div style="margin-bottom: 200px"></div>
         </table>
 
-        <a href="ops.html" style="margin-left: 70%" class="headding-list">返回列表</a>
         <div style="height: 200px"></div>
     </div>
 </main>
 </section>
 
+
 <footer class="footer  footer-defult">
     <div class="container-fluid">
-        <div class="show-copyright">
+        <div class="show-copyright" style="margin-left: 5%">
             <a class="footer-brand">Rio</a>
             <p>
                 is © 2017 Team3
@@ -119,11 +113,14 @@
 
         <div class="collapse footer-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #f8f8f8;" href="/about">About</a>
-                    <a style="color: #f8f8f8;" href="/episodes">Episodes</a>
-                    <a style="color: #f8f8f8;" href="/contact">Contact</a>
-                    <a style="color: #f8f8f8;" href="/search">Search</a>
-                    <a style="color: #f8f8f8;" href="/subscribe">Subscribe</a>
+                  <div class="list-of-socials" style="margin-top: 50px">
+                      <a href="https://github.com/Dongruanteam3">
+                          <img class="socialsicon" src="../../res/png/GitHub-Mark.png">
+                      </a>
+                      <a href="http://qun.qzone.qq.com/group#!/562921687/share">
+                          <img class="socialsicon" src="../../res/png/qq.png">
+                      </a>
+                  </div>
                 </span>
         </div>
     </div>

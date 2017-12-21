@@ -22,11 +22,10 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../about/About.html">About</a>
-                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
-                    <a style="color: #5d594d;" href="/contact">Contact</a>
-                    <a style="color: #5d594d;" href="/search">Search</a>
-                    <a style="color: #5d594d;" href="../Sign/Sign.html">SignIn</a>
+                    <a style="color: #5d594d;" href="distributer.html" >首页</a>
+                    <a style="color: #5d594d;" href="distributionSelect.html" class="selectPage">查询维修</a>
+                    <a style="color: #5d594d;" href="distributerMession.html">分配任务</a>
+                    <a style="color: #5d594d;" href="../about/About.html">登出</a>
                 </span>
         </div>
     </div>
@@ -46,12 +45,8 @@
 <main class="clearfix" role="main">
     <div class="container">
         <h6 class="heading">
-            任务管理
+            任务分配管理
         </h6>
-        <br>
-        <a href="" class="headding-list">分配所有未分配任务</a>
-        <br>
-        <br>
         <p style="font-size: 40px" class="heading headding2">查询任务信息</p>
         <br>
         <form action="searchResult.html">
@@ -75,11 +70,8 @@
                 <br>
                 <input style="margin-top: 10px; margin-left: 40px" class="sign-form-input" id="selectCustomerName" name="selectCustomerName" type="text">
             </div>
-            <input type="submit" class="submit" value="Search"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
+            <input type="submit" class="submit submitlefter" value="搜索"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
         </form>
-        <br>
-        <!--TODO: 修改客户信息链接-->
-
         <br>
         <div style="margin-bottom: 200px"></div>
 
@@ -87,12 +79,9 @@
 
 </main>
 
-
-
-
 <footer class="footer  footer-defult">
     <div class="container-fluid">
-        <div class="show-copyright">
+        <div class="show-copyright" style="margin-left: 5%">
             <a class="footer-brand">Rio</a>
             <p>
                 is © 2017 Team3
@@ -103,11 +92,14 @@
 
         <div class="collapse footer-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #f8f8f8;" href="/about">About</a>
-                    <a style="color: #f8f8f8;" href="/episodes">Episodes</a>
-                    <a style="color: #f8f8f8;" href="/contact">Contact</a>
-                    <a style="color: #f8f8f8;" href="/search">Search</a>
-                    <a style="color: #f8f8f8;" href="/subscribe">Subscribe</a>
+                  <div class="list-of-socials" style="margin-top: 50px">
+                      <a href="https://github.com/Dongruanteam3">
+                          <img class="socialsicon" src="../../res/png/GitHub-Mark.png">
+                      </a>
+                      <a href="http://qun.qzone.qq.com/group#!/562921687/share">
+                          <img class="socialsicon" src="../../res/png/qq.png">
+                      </a>
+                  </div>
                 </span>
         </div>
     </div>

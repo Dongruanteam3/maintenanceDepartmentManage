@@ -377,3 +377,19 @@ ul{
 .hrtest{
     background-image: linear-gradient(to right,#808080,#808080, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),#808080, #808080);
 }
+
+select {
+    border: none;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: url("../res/png/function/下拉箭头.png") no-repeat scroll right center transparent;
+    padding-left: 20px;
+    color:white;
+    font-size: large;
+    height: 90%;
+    width:90%;
+}
+select::-ms-expand { display: none;
+;
+}

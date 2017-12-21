@@ -21,11 +21,12 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../about/About.html">About</a>
-                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
-                    <a style="color: #5d594d;" href="/contact">Contact</a>
-                    <a style="color: #5d594d;" href="/search">Search</a>
-                    <a style="color: #5d594d;" href="../Sign/Sign.html">SignIn</a>
+                   <a style="color: #5d594d;" href="customer.html">首页</a>
+                    <a style="color: #5d594d;" href="userinsert.html" class="selectPage">添加客户</a>
+                    <a style="color: #5d594d;" href="userselect.html">查询客户信息</a>
+                    <a style="color: #5d594d;" href="userupdatefront.html">修改客户</a>
+                    <a style="color: #5d594d;" href="userdelete.html">删除客户</a>
+                    <a style="color: #5d594d;" href="../about/About.html">登出</a>
                 </span>
         </div>
     </div>
@@ -46,47 +47,26 @@
         <h6 class="heading">
             客户信息管理
         </h6>
-        <br>
-        <a href="" class="headding-list">添加客户</a>
-        <br>
-        <br>
-
         <p style="font-size: 40px" class="heading headding2">删除客户</p>
         <br>
-        <form action="" onsubmit="submit_sure()">
+        <form action="" style="margin-left: 13%; margin-top: 3%">
             <div style="margin-left: 20%;">
-            <!--TODO: 删除用户界面的ID编码-->
-            <label for="deleteName">
-                客户姓名
-            </label>
-            <br>
-            <input style="margin-left: 50px" class="sign-form-input" id="deleteName" name="deleteName" type="text">
-            <br>
-            <label for="deleteId">
-                客户编号
-            </label>
-            <br>
-            <input style="margin-left: 50px" class="sign-form-input" id="deleteId" name="deleteId" type="text">
+                <label for="deleteId">
+                    客户编号
+                </label>
+                <br>
+                <input style="margin-left: 50px" class="sign-form-input" id="deleteId" name="deleteId" type="text">
             </div>
-            <input type="submit" class="submit" value="Delete"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)">
+            <input type="submit" class="submit submitlefter" value="删除"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)">
         </form>
-        <br>
-        <br>
-        <!--TODO: 修改客户信息链接-->
-        <a href="userselect.html" class="headding-list">修改客户信息</a>
-        <br>
-        <br>
-        <a href="searchResult.html" class="headding-list">查询客户信息</a>
-        <br>
         <div style="margin-bottom: 200px"></div>
 
     </div>
 </main>
-</section>
 
 <footer class="footer  footer-defult">
     <div class="container-fluid">
-        <div class="show-copyright">
+        <div class="show-copyright" style="margin-left: 5%">
             <a class="footer-brand">Rio</a>
             <p>
                 is © 2017 Team3
@@ -97,11 +77,14 @@
 
         <div class="collapse footer-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #f8f8f8;" href="/about">About</a>
-                    <a style="color: #f8f8f8;" href="/episodes">Episodes</a>
-                    <a style="color: #f8f8f8;" href="/contact">Contact</a>
-                    <a style="color: #f8f8f8;" href="/search">Search</a>
-                    <a style="color: #f8f8f8;" href="/subscribe">Subscribe</a>
+                  <div class="list-of-socials" style="margin-top: 50px">
+                      <a href="https://github.com/Dongruanteam3">
+                          <img class="socialsicon" src="../../res/png/GitHub-Mark.png">
+                      </a>
+                      <a href="http://qun.qzone.qq.com/group#!/562921687/share">
+                          <img class="socialsicon" src="../../res/png/qq.png">
+                      </a>
+                  </div>
                 </span>
         </div>
     </div>

@@ -5,9 +5,9 @@
     <title>搜索用户</title>
     <link rel="stylesheet" type="text/css" href="../frame.css">
     <link rel="stylesheet" type="text/css" href="../about/tableNeeded.css">
-    <link rel="stylesheet" type="text/css" href="./customerNeeded.css">
+    <link rel="stylesheet" type="text/css" href="../Customerservice/customerNeeded.css">
     <link rel="stylesheet" type="text/css" href="../Sign/banerNeeded.css">
-    <script src="CusNeeded.js"></script>
+    <script src="opsNeeded.js"></script>
 
 </head>
 <body>
@@ -21,11 +21,12 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../about/About.html">About</a>
-                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
-                    <a style="color: #5d594d;" href="/contact">Contact</a>
-                    <a style="color: #5d594d;" href="/search">Search</a>
-                    <a style="color: #5d594d;" href="../Sign/Sign.html">SignIn</a>
+                    <a style="color: #5d594d;" href="customer.html">首页</a>
+                    <a style="color: #5d594d;" href="userinsert.html" >添加客户</a>
+                    <a style="color: #5d594d;" href="userselect.html" class="selectPage">查询客户信息</a>
+                    <a style="color: #5d594d;" href="userupdatefront.html">修改客户</a>
+                    <a style="color: #5d594d;" href="userdelete.html">删除客户</a>
+                    <a style="color: #5d594d;" href="../about/About.html">登出</a>
                 </span>
         </div>
     </div>
@@ -34,7 +35,7 @@
 
 <div class="title">
     <div class="show-info" style="padding-top: 210px;">
-        <a href="http://www.baidu.com" class="midtitle">客 服</a>
+        <a href="http://www.baidu.com" class="midtitle">运维人员</a>
     </div>
 </div>
 <!--<div class="title">-->
@@ -46,21 +47,10 @@
         <h6 class="heading">
             客户信息管理
         </h6>
-        <br>
-        <a href="" class="headding-list">添加客户</a>
-        <br>
-        <br>
-        <a href="" class="headding-list">删除客户</a>
-        <br>
-        <br>
-        <a href="" class="headding-list">修改客户信息</a>
-        <br>
-        <br>
         <p style="font-size: 40px" class="heading headding2">查询客户信息</p>
         <br>
-        <form action="searchResult.html">
+        <form action="usersearchResult.html">
             <div style="margin-left: 20%;">
-                <!--TODO: 删除用户界面的ID编码-->
                 <label for="selectName">
                     客户姓名
                 </label>
@@ -79,11 +69,8 @@
                 <br>
                 <input style="margin-left: 40px" class="sign-form-input" id="selectPhone" name="selectPhone" type="text">
             </div>
-            <input type="submit" class="submit" value="Search"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
+            <input type="submit" class="submit submitlefter" value="搜索"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
         </form>
-        <br>
-        <!--TODO: 修改客户信息链接-->
-
         <br>
         <div style="margin-bottom: 200px"></div>
 
@@ -93,7 +80,7 @@
 
 <footer class="footer  footer-defult">
     <div class="container-fluid">
-        <div class="show-copyright">
+        <div class="show-copyright" style="margin-left: 5%">
             <a class="footer-brand">Rio</a>
             <p>
                 is © 2017 Team3
@@ -104,14 +91,16 @@
 
         <div class="collapse footer-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #f8f8f8;" href="/about">About</a>
-                    <a style="color: #f8f8f8;" href="/episodes">Episodes</a>
-                    <a style="color: #f8f8f8;" href="/contact">Contact</a>
-                    <a style="color: #f8f8f8;" href="/search">Search</a>
-                    <a style="color: #f8f8f8;" href="/subscribe">Subscribe</a>
+                  <div class="list-of-socials" style="margin-top: 50px">
+                      <a href="https://github.com/Dongruanteam3">
+                          <img class="socialsicon" src="../../res/png/GitHub-Mark.png">
+                      </a>
+                      <a href="http://qun.qzone.qq.com/group#!/562921687/share">
+                          <img class="socialsicon" src="../../res/png/qq.png">
+                      </a>
+                  </div>
                 </span>
         </div>
     </div>
-</footer>
-</body>
+</footer></body>
 </html>

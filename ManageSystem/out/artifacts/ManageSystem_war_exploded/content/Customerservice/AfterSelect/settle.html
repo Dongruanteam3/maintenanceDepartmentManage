@@ -5,6 +5,7 @@
     <title>客户确认单</title>
     <link rel="stylesheet" type="text/css" href="../../frame.css">
     <link rel="stylesheet" type="text/css" href="../../about/tableNeeded.css">
+    <link rel="stylesheet" type="text/css" href="../customerNeeded.css">
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -17,12 +18,10 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="../../about/About.html">About</a>
-                    <a style="color: #5d594d;" href="/episodes">Episodes</a>
-                    <a style="color: #5d594d;" href="/contact">Contact</a>
-                    <a style="color: #5d594d;" href="/search">Search</a>
-                    <a style="color: #5d594d;" href="../../Sign/Sign.html">SignIn</a>
-                </span>
+                    <a style="color: #5d594d;" href="../customer.html">首页</a>
+                    <a style="color: #5d594d;" href="settleFront.html" class="selectPage" >结算信息</a>
+                    <a style="color: #5d594d;" href="../../about/About.html">登出</a>
+            </span>
         </div>
     </div>
 
@@ -42,10 +41,10 @@
     <section class="show-details">
         <div class="container">
             <h6 class="heading">
-                confirmation form preview
+                结算管理
             </h6>
             <br>
-            <p class="heading headding2">结算清单</p>
+            <p class="heading headding2">生成结算清单</p>
             <table class="confermation-table" border="1px solid">
                 <tr>
                     <th colspan="8" style="text-align: center; font-weight: 400; font-size:35px">宇无公司结算清单</th>
@@ -112,11 +111,10 @@
                     <th colspan="2"></th>
                 </tr>
             </table>
-            <div class="confermation-message">
-                <span >发货签字:</span>
-                <span style="padding-left: 20%;">机主签字:</span>
-                <span style="padding-left: 35%;">打印时间:</span>
-            </div>
+
+            <br>
+            <br>
+            <a href="settleConformation.html" class="headding-list">打印结算确认单</a>
         </div>
 
 
@@ -124,11 +122,9 @@
 </main>
 
 
-
-
 <footer class="footer  footer-defult">
     <div class="container-fluid">
-        <div class="show-copyright">
+        <div class="show-copyright" style="margin-left: 5%">
             <a class="footer-brand">Rio</a>
             <p>
                 is © 2017 Team3
@@ -139,11 +135,14 @@
 
         <div class="collapse footer-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #f8f8f8;" href="/about">About</a>
-                    <a style="color: #f8f8f8;" href="/episodes">Episodes</a>
-                    <a style="color: #f8f8f8;" href="/contact">Contact</a>
-                    <a style="color: #f8f8f8;" href="/search">Search</a>
-                    <a style="color: #f8f8f8;" href="/subscribe">Subscribe</a>
+                  <div class="list-of-socials" style="margin-top: 50px">
+                      <a href="https://github.com/Dongruanteam3">
+                          <img class="socialsicon" src="../../../res/png/GitHub-Mark.png">
+                      </a>
+                      <a href="http://qun.qzone.qq.com/group#!/562921687/share">
+                          <img class="socialsicon" src="../../../res/png/qq.png">
+                      </a>
+                  </div>
                 </span>
         </div>
     </div>
