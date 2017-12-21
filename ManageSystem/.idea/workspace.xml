@@ -51,22 +51,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settleConformation.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/content/Customerservice/AfterSelect/settleConformation.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-                  <folding>
-                    <element signature="n#style#0;n#a#2;n#span#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#span#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="settleFront.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/content/Customerservice/AfterSelect/settleFront.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -135,15 +119,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="distributer.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="distributer.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/content/distribution/distributer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.384535">
+                <state vertical-scroll-proportion="-14.72">
                   <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#span#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="jfdklsjfksdl" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web/content/testPage/jfdklsjfksdl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -334,7 +328,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/content/repository/outflow.html" />
         <option value="$PROJECT_DIR$/web/content/repository/repairNeeded.html" />
         <option value="$PROJECT_DIR$/web/content/repository/addnew.html" />
         <option value="$PROJECT_DIR$/out/artifacts/ManageSystem_war_exploded/content/Customerservice/AfterSelect/records.html" />
@@ -380,11 +373,12 @@
         <option value="$PROJECT_DIR$/web/content/Repair/repairDetail.html" />
         <option value="$PROJECT_DIR$/web/content/Repair/repairUpdate.html" />
         <option value="$PROJECT_DIR$/web/content/Repair/repairShow.html" />
-        <option value="$PROJECT_DIR$/web/content/distribution/distributer.html" />
         <option value="$PROJECT_DIR$/web/content/distribution/distributionSelect.html" />
         <option value="$PROJECT_DIR$/web/content/distribution/searchResult.html" />
         <option value="$PROJECT_DIR$/web/content/distribution/distributerMession.html" />
         <option value="$PROJECT_DIR$/web/content/distribution/detaillog.html" />
+        <option value="$PROJECT_DIR$/web/content/distribution/distributer.html" />
+        <option value="$PROJECT_DIR$/web/content/testPage/jfdklsjfksdl" />
       </list>
     </option>
   </component>
@@ -1106,12 +1100,12 @@
       <workItem from="1513678357457" duration="19204000" />
       <workItem from="1513819940482" duration="6802000" />
       <workItem from="1513827824912" duration="1079000" />
-      <workItem from="1513831766663" duration="1229000" />
+      <workItem from="1513831766663" duration="1319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178126000" />
+    <option name="totallyTimeSpent" value="178216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1178,13 +1172,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/content/ops/ops.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.407408">
-          <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/content/ops/repairsearchResult.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1259,6 +1246,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="304" column="53" selection-start-line="304" selection-start-column="53" selection-end-line="304" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1698,12 +1686,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/content/distribution/distributer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.384535">
+        <state vertical-scroll-proportion="-14.72">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#span#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/testPage/jfdklsjfksdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
