@@ -51,7 +51,6 @@
                 &nbsp; &nbsp;
                 <img alt="验证码" id="imagecode" src="<%=request.getContextPath()%>/servlet/ImageServlet"/>
                 <a onclick="document.getElementById('imagecode').src='<%=request.getContextPath()%>/servlet/ImageServlet?'+Math.random()" style="color: #c2c3aa;">看不清,换一张</a>
-                <%--<input type="text" name="captcha" id="captcha" class="sign-form-input">--%>
                 <span class="submitbuttom-frame">
                     <input name="imgbtn" type="image" src="../../res/png/function/提交bai.png" class="submitbuttom" onmousemove="bigImg(this)" onmouseout="normalImg(this) ">
                 </span>

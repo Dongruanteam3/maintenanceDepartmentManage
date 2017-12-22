@@ -5,7 +5,7 @@
          version="3.1">
     <servlet>
         <servlet-name>ImageServlet</servlet-name>
-        <servlet-class>servlet.sign.ImageServlet</servlet-class>
+        <servlet-class>servlet.root.ImageServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>

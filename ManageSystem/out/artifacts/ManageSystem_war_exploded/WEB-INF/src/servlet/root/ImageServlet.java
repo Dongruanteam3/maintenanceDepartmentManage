@@ -1,4 +1,4 @@
-package servlet.sign;
+package servlet.root;
 
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServlet;
