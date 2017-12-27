@@ -1,6 +1,8 @@
 package servlet.root;
 
+import javax.servlet.annotation.WebServlet;
 import javax.imageio.ImageIO;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -9,6 +11,8 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.Random;
 
+
+@WebServlet(name = "ImageServlet", urlPatterns = "/servlet/root/ImageServlet")
 public class ImageServlet extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {

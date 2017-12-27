@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <title>SignUp</title>
     <link rel="stylesheet" type="text/css" href="../frame.css">
-    <link rel="stylesheet" type="text/css" href="banerNeeded.css">
+    <link rel="stylesheet" type="text/css" href="../Sign/banerNeeded.css">
     <link rel="icon" href="/res/png/eyu.ico"/>
-    <script src="SignNeeded.js"></script>
+    <script src="../Sign/SignNeeded.js"></script>
 </head>
 <body>
 <div class="banner">
@@ -49,8 +49,8 @@
                 <br>
                 <input type="text" name="captcha" id="captcha" class="sign-form-input" style="width: 200px">
                 &nbsp; &nbsp;
-                <img alt="验证码" id="imagecode" src="<%=request.getContextPath()%>/servlet/ImageServlet"/>
-                <a onclick="document.getElementById('imagecode').src='<%=request.getContextPath()%>/servlet/ImageServlet?'+Math.random()" style="color: #c2c3aa;">看不清,换一张</a>
+                <img alt="验证码" id="imagecode" src="<%=request.getContextPath()%>/servlet/root/ImageServlet"/>
+                <a onclick="document.getElementById('imagecode').src='<%=request.getContextPath()%>/servlet/root/ImageServlet?'+Math.random()" style="color: #c2c3aa;">看不清,换一张</a>
                 <span class="submitbuttom-frame">
                     <input name="imgbtn" type="image" src="../../res/png/function/提交bai.png" class="submitbuttom" onmousemove="bigImg(this)" onmouseout="normalImg(this) ">
                 </span>

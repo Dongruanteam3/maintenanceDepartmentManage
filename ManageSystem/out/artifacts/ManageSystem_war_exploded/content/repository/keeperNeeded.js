@@ -15,20 +15,15 @@ function  chuku() {
 
 }
 function getstatu(){
-    var remain = document.getElementById("a1054").value;
-    var red = document.getElementById("a1056").value;
-    var statu = document.getElementById("a1057").value;
-    if(remain == null && red == null)
-    return false;
-    if(remain - red >0)
-        statu = 1;
-    else if(remain = red)
-        statu = 2;
-    else if(remain > 0)
-        statu = 3;
+    var state = document.getElementById('a75').value - document.getElementById('a76').value;
+    if(state > 0)
+        document.getElementById('a77').value = 1;
+    else if(state == 0 && document.getElementById('a75').value!= 0)
+        document.getElementById('a77').value = 2;
+    else if(document.getElementById('a75').value >0)
+        document.getElementById('a77').value = 3;
     else
-        statu = 4;
-    alert(statu);
+        document.getElementById('a77').value = 4;
 }
 
 
@@ -38,4 +33,42 @@ function deleteboChange(obj){
 
 function deleteboChangeback(obj){
     obj.style="text-shadow: 0 0 1px white;"
+}
+
+function test(){
+    var out = document.getElementById("a1051").value;
+    alert("1");
+    alert(out);
+}
+
+function today(){
+    var today=new Date();
+    document.getElementById("a66").value = today();
+}
+
+function vilidate_form(){
+    if(document.getElementById("a72").value==""){
+        alert("备件名");
+        document.getElementById("a72").focus();
+        return false;
+    }
+    else if(document.getElementById("a73").value=="") {
+        alert("备件型号");
+        document.getElementById("a73").focus();
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+
+function vilidate_select(){
+    if(document.getElementById(selectStatus).value= 5){
+        if(document.getElementById(selectName).value==""){
+            document.getElementById(selectName).focus();
+            return false;
+        }
+    }else{
+        return true;
+    }
 }
