@@ -15,9 +15,6 @@ import java.sql.Date;
 
 @WebServlet(name = "newSparePartsStorageServlet",urlPatterns = "/servlet/repository/addnew/newSparePartsStorageServlet")
 public class newSparePartsStorage extends HttpServlet {
-    public newSparePartsStorage() {
-        super();
-    }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -52,7 +49,7 @@ public class newSparePartsStorage extends HttpServlet {
         Date a66InAddnew = Date.valueOf(req.getParameter("a66"));
 //        System.out.println(a66InAddnew);
         req.setAttribute("dateadd",a66InAddnew);
-        req.getRequestDispatcher(req.getContextPath() + "/content/repository/addflow.jsp").forward(req,resp);
+        req.getRequestDispatcher(req.getContextPath() + "/content/repository/addflowToNew.jsp").forward(req,resp);
     }
 
     @Override

@@ -56,36 +56,37 @@
             仓库管理
         </h6>
         <p style="font-size: 40px" class="heading headding2">入库流水</p>
-        <%A7 addA7 = (A7)request.getAttribute("addA7");%>
-        <%Date addtime =(Date)request.getAttribute("dateadd");%>
-        <form action="<%=request.getContextPath()%>/servlet/repository/addflow/addflowServlet" method="post">
+        <%--<%A7 addA7 = (A7)request.getAttribute("addA7");%>--%>
+        <%--<%Date addtime =(Date)request.getAttribute("dateadd");%>--%>
+        <form action="<%=request.getContextPath()%>/servlet/repository/addflow/addflownewServlet" method="post">
             <table style="margin-top: 30px;" class="confermation-table" border="1px solid">
                 <tr>
                     <th colspan="4" style="text-align: center; font-weight: 400; font-size:35px">入库流水</th>
                 </tr>
                 <tr>
                     <th>备件名称</th>
-                    <th><input type="text" id="a62" name="a62" class="customer-form-input" value="${addA7.getA72()}" readonly></th>
+                    <th><input type="text" id="a62" name="a62" class="customer-form-input" ></th>
                     <th>型号</th>
-                    <th><input type="text" id="a63" name="a63" class="customer-form-input" value="${addA7.getA73()}" readonly></th>
+                    <th><input type="text" id="a63" name="a63" class="customer-form-input"></th>
                 </tr>
                 <tr>
                     <th>数量</th>
-                    <th><input type="number" id="a64" name="a64" class="customer-form-input" value="${addA7.getA75()}" readonly></th>
+                    <th><input type="number" id="a64" name="a64" class="customer-form-input"></th>
                     <th>进价</th>
                     <th><input type="number" id="a65" name="a65" class="customer-form-input"></th>
                 </tr>
                 <tr>
                     <th>入库时间</th>
-                    <th colspan="3"><input type="date" id="a66" name="a66" class="customer-form-input" value="${requestScope.dateadd}" readonly></th>
+                    <th colspan="3"><input type="date" id="a66" name="a66" class="customer-form-input" ></th>
+                    <script>
+                        document.getElementById('a66').valueAsDate = new Date();
+                    </script>
                 </tr>
             </table>
             <input  type="submit" class="submit" value="提交"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)">
 
         </form>
-        <div class="innerlink">
 
-        </div>
 
         <div style="margin-bottom: 200px"></div>
 

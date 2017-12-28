@@ -28,7 +28,7 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
                 <span class="navbar-bar">
                     <a style="color: #5d594d;" href="keeper.html">首页</a>
                     <a style="color: #5d594d;" href="addnew.jsp">入库</a>
-                    <a style="color: #5d594d;" href="repairNeeded.html">出库</a>
+                    <a style="color: #5d594d;" href="<%=basePath%>/servlet/repository/repaireNeeded/repaireNeededBeforeServlet">出库</a>
                     <a style="color: #5d594d;" href="select.html" class="selectPage">查询库存</a>
                     <a style="color: #5d594d;" href="../Sign/Sign.html">登出</a>
                 </span>
@@ -54,7 +54,7 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
         </h6>
         <p style="font-size: 40px" class="heading headding2">查询库存</p>
         <br>
-        <form action="<%=request.getContextPath()%>/servlet/repository/select/oldSparePartsStorageServlet" method="post"  accept-charset="UTF-8" autocomplete="off"> >
+        <form action="<%=request.getContextPath()%>/servlet/repository/select/oldSparePartsStorageServlet" method="post"  accept-charset="UTF-8" autocomplete="off">
             <div style="margin-left: 30%;">
                 <label for="selectStatus">
                     状态
@@ -65,7 +65,7 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
                     <option value="2">临界</option>
                     <option value="3">警示</option>
                     <option value="4">缺货</option>
-                    <option value="5" selected>NULL</option>
+                    <option value="5" selected>All</option>
                 </select>
                 <%--<input style="margin-left: 40px" class="sign-form-input" id="selectStatus" name="selectStatus" type="number">--%>
                 <br>
@@ -75,7 +75,7 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
                 <br>
                 <input style="margin-left: 40px" class="sign-form-input" id="selectName" name="selectName" type="text">
             </div>
-            <input type="submit" class="submit submitlefter" value="搜索"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)" onclick="submit_sure()">
+            <input type="submit" class="submit submitlefter" value="搜索"  onmousemove="deleteboChange(this)" onmouseout="deleteboChangeback(this)">
         </form>
         <div style="margin-bottom: 100px"></div>
     </div>

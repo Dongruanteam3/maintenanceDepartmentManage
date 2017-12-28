@@ -72,3 +72,16 @@ function vilidate_select(){
         return true;
     }
 }
+
+
+
+function submitYouFrom(path){
+    $('form1').action=path;
+    $('form1').submit();
+}
+
+function spnSub2(){
+    document.all.form.action="searchuser.action";
+    document.all.form.submit();
+}
+

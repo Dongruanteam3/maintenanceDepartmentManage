@@ -32,7 +32,7 @@ public class JDBCPool implements DataSource {
             String username = "C##TestMan";
             String password = "123456";
 //            int jdbcPoolInitSize =Integer.parseInt(properties.getProperty("jdbcPoolInitSize"));
-            int jdbcPoolInitSize=10;
+            int jdbcPoolInitSize=100;
             Class.forName(driver);
             for(int i = 0; i<jdbcPoolInitSize; i++){
                 Connection connection = DriverManager.getConnection(url, username, password);

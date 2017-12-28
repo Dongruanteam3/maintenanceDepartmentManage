@@ -1,11 +1,11 @@
 package bean.repository;
 
 public class A7 {
-    int a71;
-    String a72, a73, a77;
-    double a74;
-    int a75;
-    int a76;
+    private int a71;
+    private String a72, a73, a77;
+    private double a74;
+    private int a75;
+    private int a76;
     /**
     * @Description: 构造器 全有和只有三个必填
     **/
@@ -27,6 +27,13 @@ public class A7 {
         this.a75 = a75;
         this.a76 = a76;
     }
+
+    public A7(String a72, String a73, int a75) {
+        this.a72 = a72;
+        this.a73 = a73;
+        this.a75 = a75;
+    }
+
     public A7(String a72, String a73) {
         this.a71 = a71;
         this.a72 = a72;

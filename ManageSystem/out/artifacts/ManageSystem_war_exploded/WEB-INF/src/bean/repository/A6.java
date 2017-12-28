@@ -3,11 +3,11 @@ package bean.repository;
 import java.sql.Date;
 
 public class A6 {
-    int a61;
-    String a62,a63;
-    int a64;
-    double a65;
-    Date a66;
+    private int a61;
+    private String a62,a63;
+    private int a64;
+    private double a65;
+    private Date a66;
 
     public A6(int a61, String a62, String a63, int a64, double a65, Date a66) {
         this.a61 = a61;
@@ -24,6 +24,12 @@ public class A6 {
         this.a64 = a64;
         this.a65 = a65;
         this.a66 = a66;
+    }
+
+    public A6(String a62, String a63, int a64) {
+        this.a62 = a62;
+        this.a63 = a63;
+        this.a64 = a64;
     }
 
     public A6(int a61, String a62, String a63) {
