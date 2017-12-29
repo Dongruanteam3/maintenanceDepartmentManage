@@ -26,10 +26,10 @@
 
         <div class="collapse navbar-collapse">
                 <span class="navbar-bar">
-                    <a style="color: #5d594d;" href="keeper.html">首页</a>
-                    <a style="color: #5d594d;" href="addnew.jsp" class="selectPage">入库</a>
+                    <a style="color: #5d594d;" href="<%=basePath%>/content/repository/keeper.html">首页</a>
+                    <a style="color: #5d594d;" href="<%=basePath%>/content/repository/addnew.jsp" class="selectPage">入库</a>
                     <a style="color: #5d594d;" href="<%=basePath%>/servlet/repository/repaireNeeded/repaireNeededBeforeServlet">出库</a>
-                    <a style="color: #5d594d;" href="select.html">查询库存</a>
+                    <a style="color: #5d594d;" href="<%=basePath%>/content/repository/select.jsp">查询库存</a>
                     <a style="color: #5d594d;" href="<%=basePath%>/content/Sign/Sign.html">登出</a>
                 </span>
         </div>

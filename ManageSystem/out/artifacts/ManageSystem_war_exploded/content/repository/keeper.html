@@ -20,8 +20,8 @@
                 <span class="navbar-bar">
                     <a style="color: #5d594d;" href="keeper.html" class="selectPage">首页</a>
                     <a style="color: #5d594d;" href="addnew.jsp">入库</a>
-                    <a style="color: #5d594d;" href="repairNeeded.html">出库</a>
-                    <a style="color: #5d594d;" href="select.html">查询库存</a>
+                    <a style="color: #5d594d;" href="/servlet/repository/repaireNeeded/repaireNeededBeforeServlet">出库</a>
+                    <a style="color: #5d594d;" href="select.jsp">查询库存</a>
                     <a style="color: #5d594d;" href="../Sign/Sign.html">登出</a>
                 </span>
         </div>
@@ -45,14 +45,13 @@
             <div id="cus-functions" class="show-functions">
 
             </div>
-            <!--TODO: 先完成各个链接-->
             <div class="show-functionpics" >
                 <br>
-                <a href="select.html"><img src="../../res/png/customerservice/查询%20(1).png" alt="查询维修记录" onmousemove="chaxun()" width="13%"></a>
+                <a href="select.jsp"><img src="../../res/png/customerservice/查询%20(1).png" alt="查询维修记录" onmousemove="chaxun()" width="13%"></a>
                 &nbsp; &nbsp;
                 <a href="addnew.jsp"><img src="../../res/png/customerservice/增加new.png" alt="增加" onmousemove="ruku()" width="13%"></a>
                 &nbsp; &nbsp;
-                <a href="repairNeeded.html"><img src="../../res/png/customerservice/减少.png" alt="减少" onmousemove="chuku()" width="13%"></a>
+                <a href="/servlet/repository/repaireNeeded/repaireNeededBeforeServlet""><img src="../../res/png/customerservice/减少.png" alt="减少" onmousemove="chuku()" width="13%"></a>
             </div>
         </div>
     </section>
@@ -86,7 +85,6 @@
                     <th></th>
                 </tr>
                 <tr>
-                    <!--根据数量是否低于警戒动态生成 -->
                     <th>库存状态</th>
                     <th colspan="3"></th>
                 </tr>
