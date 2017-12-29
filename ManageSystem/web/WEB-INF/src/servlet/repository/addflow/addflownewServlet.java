@@ -36,7 +36,7 @@ public class addflownewServlet extends HttpServlet {
         serviceForRepositoryIMP serviceForRepositoryIMP = new serviceForRepositoryIMP();
         serviceForRepositoryIMP.addProductIn(flownew);
 //        System.out.println(a66InAddnew);
-        req.getRequestDispatcher(req.getContextPath() + "/content/repository/addflow.jsp").forward(req,resp);
+        req.getRequestDispatcher(req.getContextPath() + "/content/repository/addnew.jsp").forward(req,resp);
     }
 
     @Override

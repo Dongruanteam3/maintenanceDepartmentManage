@@ -32,7 +32,7 @@ public class JDBCPool implements DataSource {
             String username = "C##TestMan";
             String password = "123456";
 //            int jdbcPoolInitSize =Integer.parseInt(properties.getProperty("jdbcPoolInitSize"));
-            int jdbcPoolInitSize=100;
+            int jdbcPoolInitSize=10;
             Class.forName(driver);
             for(int i = 0; i<jdbcPoolInitSize; i++){
                 Connection connection = DriverManager.getConnection(url, username, password);
@@ -208,6 +208,7 @@ public class JDBCPool implements DataSource {
     public Connection getConnection() throws SQLException {
         if(listConnections.size()>0){
             final Connection connection = listConnections.removeFirst();
+            System.out.println("连接池:" + listConnections.size());
             return connection;
         }else {
             throw new RuntimeException("数据库忙");

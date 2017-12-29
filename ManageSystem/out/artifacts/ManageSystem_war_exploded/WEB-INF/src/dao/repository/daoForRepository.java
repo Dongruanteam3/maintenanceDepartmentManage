@@ -1,6 +1,7 @@
 package dao.repository;
 
 import bean.repair.A4;
+import bean.repository.A5;
 import bean.repository.A6;
 import bean.repository.A7;
 
@@ -12,12 +13,14 @@ public interface daoForRepository {
     * @Description: 添加A7
     **/
     void A7insert(Connection connection, A7 newA7);
-
     /**
     * @Description: 添加A6
     **/
     void A6insert(Connection connection, A6 newA6);
-
+    /**
+     * @Description: 添加A5
+     **/
+    void A5insert(Connection connection, A5 newA5);
     /**
     * @Description: 搜索A7
     **/
@@ -34,4 +37,12 @@ public interface daoForRepository {
     * @Description: 得到所有非完成状态的A4
     **/
     ArrayList<A4> A4selectWorking(Connection connection);
+    /**
+     * @Description: 维修编号查A4
+     **/
+    A4 A4selectbyNum(Connection connection,int number);
+    /**
+     * @Description: 修改A4
+     **/
+    void A4Updatea47Anda49(Connection connection,A4 a4);
 }

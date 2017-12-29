@@ -53,7 +53,13 @@ public class StringTools {
         }
      return arrayList;
     }
-
-
-
+    public static String ArrayListToStirng(ArrayList<NameTypeNumber> arrayList){
+        Iterator<NameTypeNumber> iterator = arrayList.iterator();
+        StringBuffer stringBuffer = new StringBuffer();
+        while (iterator.hasNext()){
+            stringBuffer.append(iterator.next().toString());
+        }
+        String str = stringBuffer.toString();
+        return  str;
+    }
 }

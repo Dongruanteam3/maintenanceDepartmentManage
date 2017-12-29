@@ -208,6 +208,7 @@ public class JDBCPool implements DataSource {
     public Connection getConnection() throws SQLException {
         if(listConnections.size()>0){
             final Connection connection = listConnections.removeFirst();
+            System.out.println("连接池:" + listConnections.size());
             return connection;
         }else {
             throw new RuntimeException("数据库忙");

@@ -65,6 +65,8 @@
             Iterator<NameTypeNumber> ntnIterator = ntnArrayList.iterator();
             ArrayList<Integer>repositoryNumber = (ArrayList<Integer>)request.getAttribute("repositoryNumber");
             Iterator<Integer>numIterator = repositoryNumber.iterator();
+            ArrayList<NameTypeNumber> newSparePartArrayList = (ArrayList<NameTypeNumber>)request.getAttribute("newSparePartArrayList");
+            Iterator<NameTypeNumber> newSparePartIterator = newSparePartArrayList.iterator();
         %>
         <table style="margin-top: 30px; margin-bottom: 100px" class="confermation-table" border="1px solid">
             <tr>
@@ -89,8 +91,28 @@
                     <th><input type="text" id="a55" name="a55" class="customer-form-input" readonly value="<%=nameTypeNumber.getNumber()%>"></th>
                     <th><input type="text" id="a75" name="a75" class="customer-form-input" readonly value="<%=numIterator.next()%>"></th>
                     <th><input type="image" style="margin-left: 10%; margin-top: 10px" height="25px" src="<%=basePath%>/res/png/customerservice/详细信息.png" alt="继续/确认" onclick="form.action='/servlet/repository/addold/SoldSparePartsStorageTowardFlowServlet'; form.submit()"></th>
-                    <th><input type="image" style="margin-left: 10%; margin-top: 10px" height="25px" src="<%=basePath%>/res/png/customerservice/详细信息.png" alt="继续/确认" onclick="form.submit()" ></th>
+                    <%--todo 出库开始点--%>
+                    <th><input type="image" style="margin-left: 10%; margin-top: 10px" height="25px" src="<%=basePath%>/res/png/customerservice/详细信息.png" alt="继续/确认" onclick="form.action='/servlet/repository/out/GeneratingOutFlowServlet'; form.submit()" ></th>
                     <input type="number" id="number" name="number" class="customer-form-input" hidden value="0">
+
+                </form>
+            </tr>
+            <%
+                }
+            %>
+            <%
+                while(newSparePartIterator.hasNext()){
+                    NameTypeNumber nameTypeNumber = newSparePartIterator.next();
+            %>
+            <tr>
+                <form action="" method="post" accept-charset="UTF-8" autocomplete="off" name="form1">
+                    <th><input type="text" id="a722" name="a722" class="customer-form-input" readonly value="<%=nameTypeNumber.getName()%>"></th>
+                    <th><input type="text" id="a732" name="a732" class="customer-form-input" readonly value="<%=nameTypeNumber.getType()%>"></th>
+                    <th><input type="text" id="a552" name="a552" class="customer-form-input" readonly value="<%=nameTypeNumber.getNumber()%>"></th>
+                    <th><input type="text" id="a752" name="a752" class="customer-form-input" readonly value=" "></th>
+                    <th><input type="image" style="margin-left: 10%; margin-top: 10px" height="25px" src="<%=basePath%>/res/png/customerservice/详细信息.png" alt="继续/确认" onclick="form.action='/servlet/repository/repairNeeded/SaddNewServlet'; form.submit()"></th>
+                    <th></th>
+                    <input type="number" id="number2" name="number2" class="customer-form-input" hidden value="0">
 
                 </form>
             </tr>

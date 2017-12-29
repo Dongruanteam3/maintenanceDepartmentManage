@@ -97,7 +97,7 @@
         </form>
 
         <div class="innerlink">
-        <a href="select.jsp" style="font-size: 30px; color: white" class="heading headding2">原备件添加</a>
+        <a href="<%=request.getContextPath()%>/content/repository/select.jsp" style="font-size: 30px; color: white" class="heading headding2">原备件添加</a>
             </div>
         <div style="margin-bottom: 200px"></div>
 

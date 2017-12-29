@@ -1,6 +1,7 @@
 package dao.repository;
 
 import bean.repair.A4;
+import bean.repository.A5;
 import bean.repository.A6;
 import bean.repository.A7;
 import oracle.jdbc.proxy.annotation.Pre;
@@ -182,6 +183,32 @@ public class daoForRepositoryIMP  implements daoForRepository{
 
     /**
      * @param connection
+     * @param newA5
+     * @Description: 添加A5
+     */
+    @Override
+    public void A5insert(Connection connection, A5 newA5) {
+        PreparedStatement preparedStatement =null;
+        ResultSet resultSet = null;
+        try{
+            String sql = "insert into A5 values (A5_1.nextval, ?, ?, ?, ?, ?,?)";
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1,newA5.getA52());
+            preparedStatement.setString(2,newA5.getA53());
+            preparedStatement.setInt(3,newA5.getA54());
+            preparedStatement.setInt(4,newA5.getA55());
+            preparedStatement.setDouble(5,newA5.getA56());
+            preparedStatement.setDate(6,newA5.getA57());
+            preparedStatement.executeUpdate();
+        }catch (SQLException e){
+            e.printStackTrace();
+        }finally {
+            JDBCPoolTools.release(connection,preparedStatement,resultSet);
+        }
+    }
+
+    /**
+     * @param connection
      * @Description: 得到所有非完成状态的A4
      */
     @Override
@@ -214,5 +241,63 @@ public class daoForRepositoryIMP  implements daoForRepository{
             JDBCPoolTools.release(connection, preparedStatement, resultSet);
         }
         return a4ArrayList;
+    }
+
+    /**
+     * @param number
+     * @Description: 维修编号查A4
+     */
+    @Override
+    public A4 A4selectbyNum(Connection connection ,int number) {
+        ResultSet resultSet = null;
+        PreparedStatement preparedStatement = null;
+        A4 a4 = null;
+        try {
+            String sql = "SELECT  * FROM A4 WHERE a41 = ?";
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1,number);
+            resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                int a41 = resultSet.getInt("a41");
+                int a42 = resultSet.getInt("a42");
+                String a43 = resultSet.getString("a43");
+                String a44 = resultSet.getString("a44");
+                Date a45 = resultSet.getDate("a45");
+                int a46 = resultSet.getInt("a46");
+                String a47 = resultSet.getString("a47");
+                String a48 = resultSet.getString("a48");
+                String a49 = resultSet.getString("a49");
+                a4 = new A4(a41,a42,a43,a44,a45,a46,a47,a48,a49);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            JDBCPoolTools.release(connection, preparedStatement, resultSet);
+        }
+        return a4;
+    }
+
+    /**
+     * @param connection
+     * @param a4
+     * @Description: 修改A4的A47和a49
+     */
+    @Override
+    public void A4Updatea47Anda49(Connection connection, A4 a4) {
+        ResultSet resultSet =null;
+        PreparedStatement preparedStatement = null;
+        try{
+            String sql = "UPDATE A4 SET a47=?, a49=? WHERE a41 = ?";
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, a4.getA47());
+            preparedStatement.setString(2, a4.getA49());
+            preparedStatement.setInt(3,a4.getA41());
+            preparedStatement.executeUpdate();
+        }catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            JDBCPoolTools.release(connection, preparedStatement, resultSet);
+        }
+
     }
 }

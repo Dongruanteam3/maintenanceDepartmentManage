@@ -35,7 +35,9 @@ public class SaddflowoldServlet extends HttpServlet {
         serviceForRepositoryIMP serviceForRepositoryIMP = new serviceForRepositoryIMP();
         serviceForRepositoryIMP.addProductIn(flownew);
         serviceForRepositoryIMP.addProductInToorepository(flownew);
-        System.out.println("测试1");
+
+
+
 //        System.out.println(a66InAddnew);
         //做一个数量添加的server
         req.getRequestDispatcher(req.getContextPath() + "/servlet/repository/repaireNeeded/SparePartsNeededServlet").forward(req, resp);

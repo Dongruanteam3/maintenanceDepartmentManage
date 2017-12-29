@@ -34,12 +34,7 @@ public class JDBCPoolTools {
             }
         }
         if (connection != null){
-            try{
                 JDBCPool.add(connection);
-                connection.close();
-            }catch(SQLException e){
-                e.printStackTrace();
-            }
         }
 
     }

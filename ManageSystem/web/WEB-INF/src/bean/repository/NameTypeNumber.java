@@ -40,10 +40,27 @@ public class NameTypeNumber {
 
     @Override
     public String toString() {
-        return "NameTypeNumber{" +
-                "name='" + name + '\'' +
-                ", type='" + type + '\'' +
-                ", number=" + number +
-                '}';
+        return name+" "+type+"*"+number+";";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof NameTypeNumber)) return false;
+
+        NameTypeNumber that = (NameTypeNumber) o;
+
+        if (getNumber() != that.getNumber()) return false;
+        if (getName() != null ? !getName().equals(that.getName()) : that.getName() != null) return false;
+        return getType() != null ? getType().equals(that.getType()) : that.getType() == null;
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = getName() != null ? getName().hashCode() : 0;
+        result = 31 * result + (getType() != null ? getType().hashCode() : 0);
+        result = 31 * result + getNumber();
+        return result;
     }
 }
