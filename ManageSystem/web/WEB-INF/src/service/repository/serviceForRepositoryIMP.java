@@ -94,7 +94,16 @@ public class serviceForRepositoryIMP implements serviceForRepository {
         Connection connection = JDBCPoolTools.getConnection();
         daoForRepositoryIMP daoForRepositoryIMP = new daoForRepositoryIMP();
         ArrayList<A4> a4ArrayList = daoForRepositoryIMP.A4selectWorking(connection);
-        return  a4ArrayList;
+        //过滤没有备件需求的维修
+        Iterator<A4> a4Iterator = a4ArrayList.iterator();
+        ArrayList<A4> newa4ArrayList = new ArrayList<>();
+        while (a4Iterator.hasNext())
+        {
+            A4 a4 = a4Iterator.next();
+            if (a4.getA47()!=null || a4.getA49()!=null)
+                newa4ArrayList.add(a4);
+        }
+        return  newa4ArrayList;
     }
 
     /**
@@ -216,7 +225,7 @@ public class serviceForRepositoryIMP implements serviceForRepository {
             nameTypeNumberArrayList2.add(nex);
         }
         String na49 = StringTools.ArrayListToStirng(nameTypeNumberArrayList2);
-        String na47 = a47+ a6.getA62() + " " + a6.getA63() + "*" + a6.getA64()+";";
+        String na47 = StringTools.nullToEmpty(a47)+ a6.getA62() + " " + a6.getA63() + "*" + a6.getA64()+";";
         a4.setA47(na47);
         a4.setA49(na49);
         daoForRepositoryIMP.A4Updatea47Anda49(connection, a4);

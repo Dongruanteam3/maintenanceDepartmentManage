@@ -2,7 +2,9 @@ import bean.repair.A4;
 import bean.repository.A5;
 import bean.repository.A6;
 import bean.repository.A7;
+import bean.repository.NameTypeNumber;
 import service.repository.serviceForRepositoryIMP;
+import tools.StringTools;
 
 import java.sql.Date;
 import java.util.ArrayList;
@@ -34,7 +36,14 @@ public class addNewSpareParttest {
 //        A4 a4 = serviceForRepositoryIMP.selectA4byNumber(1002);
 //        System.out.println(a4.toString());
 //           serviceForRepositoryIMP.addProductOut(test5);
-        serviceForRepositoryIMP.UpdateA47A49AfterNewInFlow(test6, 1002);
+//        serviceForRepositoryIMP.UpdateA47A49AfterNewInFlow(test6, 1002);
+        String testStr = "ÄÚ´æÌõ 16G*2";
+        ArrayList<NameTypeNumber> nameTypeNumber = StringTools.stringToArrayList(testStr);
+        Iterator<NameTypeNumber> iterator = nameTypeNumber.iterator();
+        while (iterator.hasNext()){
+            System.out.println(iterator.next().toString());
+        }
+
         }
 
 }

@@ -22,13 +22,13 @@
     <favorites_list name="ManageSystem" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.21512248">
+    <splitter split-orientation="horizontal" split-proportion="0.6192171">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="keeper.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/content/repository/keeper.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="11.52">
+                <state vertical-scroll-proportion="-0.64">
                   <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -38,11 +38,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="frame.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/content/frame.css">
+          <file leaf-file-name="repairNeeded.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/content/repository/htmlSrc/repairNeeded.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state vertical-scroll-proportion="3.04">
+                  <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -51,9 +51,83 @@
           <file leaf-file-name="addnew.jsp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/web/content/repository/addnew.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.65497077">
-                  <caret line="28" column="84" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="84" />
+                <state vertical-scroll-proportion="0.14733543">
+                  <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SparePartsNeeded.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/repairNeeded/SparePartsNeeded.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="serviceForRepositoryIMP.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/service/repository/serviceForRepositoryIMP.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-11.666667">
+                  <caret line="199" column="14" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="repaireNeededBefore.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/repairNeeded/repaireNeededBefore.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="serviceForRepository.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/service/repository/serviceForRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="daoForRepository.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/dao/repository/daoForRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="A7.class" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/out/artifacts/ManageSystem_war_exploded/WEB-INF/classes/bean/repository/A7.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-7.703704">
+                  <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#0#2346#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="addNewSpareParttest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/test/addNewSpareParttest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -61,178 +135,110 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.38512948">
-          <split-first>
-            <leaf>
-              <file leaf-file-name="select.jsp" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/content/repository/select.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-23.68">
-                      <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="oldSparePartsStorageTowardFlow.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addold/oldSparePartsStorageTowardFlow.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="addflowToOld.jsp" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/web/content/repository/addflowToOld.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="1.0994152">
-                      <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="addflowToNew.jsp" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/content/repository/addflowToNew.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-23.68">
-                      <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="repairNeeded.jsp" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/content/repository/repairNeeded.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-19.72">
-                      <caret line="39" column="97" selection-start-line="39" selection-start-column="97" selection-end-line="39" selection-end-column="97" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SaddflowoldServlet.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addflow/SaddflowoldServlet.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="addflowoldServlet.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addflow/addflowoldServlet.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="reOldSparePartsStorage.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/select/reOldSparePartsStorage.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="OldSparePartsStorage.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/select/OldSparePartsStorage.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-                      <folding>
-                        <element signature="imports" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="addflowToOld.jsp" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/content/repository/addflowToOld.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-16.64">
-                      <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SparePartsNeeded.jsp" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/content/repository/SparePartsNeeded.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-19.84">
-                      <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SaddflowToOld.jsp" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/content/repository/SaddflowToOld.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-14.24">
-                      <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="outflow.jsp" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/content/repository/outflow.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-21.76">
-                      <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SaddNew.jsp" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/content/repository/SaddNew.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-18.56">
-                      <caret line="32" column="97" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="97" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SaddflowToNew.jsp" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/web/content/repository/SaddflowToNew.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-22.64">
-                      <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="addold.jsp" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/web/content/repository/addold.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.86549705">
-                      <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="SparePartsNeeded.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/content/repository/SparePartsNeeded.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.64">
+                  <caret line="94" column="65" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="keeperNeeded.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web/content/repository/keeperNeeded.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.16753927">
+                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="select.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/content/repository/select.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-14.72">
+                  <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OldSparePartsStorage.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/select/OldSparePartsStorage.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="47" column="82" selection-start-line="47" selection-start-column="82" selection-end-line="47" selection-end-column="82" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="addold.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/content/repository/addold.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-18.4">
+                  <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SaddflowToOld.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/content/repository/SaddflowToOld.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="outflow.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/content/repository/outflow.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SaddNew.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/content/repository/SaddNew.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.64">
+                  <caret line="32" column="97" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="97" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SaddflownewServlet.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addflow/SaddflownewServlet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SaddflowToNew.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/content/repository/SaddflowToNew.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-second>
     </splitter>
   </component>
@@ -285,20 +291,15 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/src/tools/StringTools.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/src/dao/repository/daoForRepository.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/src/dao/repository/daoForRepositoryIMP.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/src/service/repository/serviceForRepository.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/test/addNewSpareParttest.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/src/service/repository/serviceForRepositoryIMP.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addflow/SaddflownewServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addflow/addflownewServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/out/outFlowServlet.java" />
         <option value="$PROJECT_DIR$/web/content/repository/htmlSrc/select.html" />
-        <option value="$PROJECT_DIR$/web/content/repository/addnew.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/repairNeeded/beforeSparePartServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addflow/addflowoldServlet.java" />
         <option value="$PROJECT_DIR$/web/content/repository/keeper.html" />
         <option value="$PROJECT_DIR$/web/content/repository/addflowToNew.jsp" />
         <option value="$PROJECT_DIR$/web/content/repository/repairNeeded.jsp" />
-        <option value="$PROJECT_DIR$/web/content/repository/SparePartsNeeded.jsp" />
         <option value="$PROJECT_DIR$/web/content/repository/SaddflowToOld.jsp" />
         <option value="$PROJECT_DIR$/web/content/repository/outflow.jsp" />
         <option value="$PROJECT_DIR$/web/content/repository/SaddNew.jsp" />
@@ -306,6 +307,11 @@
         <option value="$PROJECT_DIR$/web/content/repository/select.jsp" />
         <option value="$PROJECT_DIR$/web/content/repository/addold.jsp" />
         <option value="$PROJECT_DIR$/web/content/repository/addflowToOld.jsp" />
+        <option value="$PROJECT_DIR$/web/content/repository/SparePartsNeeded.jsp" />
+        <option value="$PROJECT_DIR$/web/content/repository/addnew.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/test/addNewSpareParttest.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/src/service/repository/serviceForRepository.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/src/service/repository/serviceForRepositoryIMP.java" />
       </list>
     </option>
   </component>
@@ -357,7 +363,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -405,7 +410,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="png" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,37 +432,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManageSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManageSystem" />
+              <option name="myItemId" value="png" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
+              <option name="myItemId" value="function" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,45 +458,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="png" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManageSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManageSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
+              <option name="myItemId" value="customerservice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -527,23 +484,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repairNeeded" />
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -561,105 +502,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManageSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManageSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addnew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManageSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManageSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManageSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManageSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -684,9 +527,14 @@
               <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -701,7 +549,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="addFlowTo&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addflowToOld.jsp&#10;addold.jsp&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addold.jsp&#10;se&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/select.jsp&#10;SaddflowTo&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SaddflowToNew.jsp&#10;SaddNew&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SaddNew.jsp&#10;outflow&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/outflow.jsp&#10;Saddflo&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SaddflowToOld.jsp&#10;SparePart&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SparePartsNeeded.jsp&#10;repair&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/repairNeeded.jsp&#10;addflowtone&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addflowToNew.jsp&#10;add&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addnew.jsp&#10;fram&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/frame.css&#10;oldSparePartsStorageTowardFlow&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addold/oldSparePartsStorageTowardFlow.java&#10;addold&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addold.jsp&#10;oldSparePartsStorage&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/select/OldSparePartsStorage.java&#10;select.jsp&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/select.jsp&#10;reoldSparePartsStorage&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/select/reOldSparePartsStorage.java&#10;reoldSparePartsStorageServlet&#9;null&#9;null&#10;addflowoldServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addflow/addflowoldServlet.java&#10;addflowToOld&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addflowToOld.jsp&#10;oldSparePartsStor&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addold/oldSparePartsStorageTowardFlow.java&#10;oldSparePartsStorag&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addold/SoldSparePartsStorageTowardFlow.java&#10;selec&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/select.jsp&#10;select&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/htmlSrc/select.html&#10;sparepartsne&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SparePartsNeeded.jsp&#10;addnew.jsp&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addnew.jsp&#10;SaddflownewServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addflow/SaddflownewServlet.java&#10;SaddflowToNew&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SaddflowToNew.jsp&#10;SnewSparePartsStorage&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addnew/SnewSparePartsStorage.java&#10;SaddNewServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/repairNeeded/SaddNewServlet.java&#10;SparePartsNeeded&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/repairNeeded/SparePartsNeeded.java&#10;outFlowServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/out/outFlowServlet.java&#10;outflow.jsp&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/outflow.jsp&#10;GeneratingOutFlowServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/out/GeneratingOutFlowServlet.java&#10;SaddflowoldServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addflow/SaddflowoldServlet.java&#10;SaddflowToOld&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SaddflowToOld.jsp&#10;SoldSparePartsStorageTowardFlo&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addold/SoldSparePartsStorageTowardFlow.java&#10;SparePartsNeede&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SparePartsNeeded.jsp&#10;repairNeeded&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/repairNeeded.jsp&#10;repaireNeededBefore&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/repairNeeded/repaireNeededBefore.java&#10;beforeSparePartServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/repairNeeded/beforeSparePartServlet.java&#10;addflownewServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addflow/addflownewServlet.java&#10;addflowToNew&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addflowToNew.jsp&#10;newSparePartsStor&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addnew/newSparePartsStorage.java&#10;newSparePartsStora&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addnew/SnewSparePartsStorage.java&#10;SoldSparePartsStorageToward&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addold/SoldSparePartsStorageTowardFlow.java&#10;newSparePartsStorage&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addnew/newSparePartsStorage.java&#10;service&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/service/repository/serviceForRepository.java&#10;servimp&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/service/repository/serviceForRepositoryIMP.java&#10;dao&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/dao/repository/daoForRepository.java" />
+    <property name="SearchEverywhereHistoryKey" value="imp&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/service/repository/serviceForRepositoryIMP.java&#10;UpdateA47A49AfterNewInFlow&#9;PSI&#9;JAVA://service.repository.serviceForRepository#UpdateA47A49AfterNewInFlow&#10;saddf&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addflow/SaddflownewServlet.java&#10;Saddnew&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SaddNew.jsp&#10;selectWorkin&#9;PSI&#9;JAVA://dao.repository.daoForRepository#A4selectWorking&#10;selectWorkingA4&#9;PSI&#9;JAVA://service.repository.serviceForRepository#selectWorkingA4&#10;before&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/repairNeeded/repaireNeededBefore.java&#10;a7&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/out/artifacts/ManageSystem_war_exploded/WEB-INF/classes/bean/repository/A7.class&#10;servicefor&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/service/repository/serviceForRepositoryIMP.java&#10;SpareP&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/repairNeeded/SparePartsNeeded.java&#10;addold&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addold.jsp&#10;oldSparePartsStorage&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/select/OldSparePartsStorage.java&#10;addol&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addold.jsp&#10;oldSparePartsStorag&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/select/OldSparePartsStorage.java&#10;css&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/frame.css&#10;Spare&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SparePartsNeeded.jsp&#10;addFlowTo&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addflowToOld.jsp&#10;addold.jsp&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addold.jsp&#10;se&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/select.jsp&#10;SaddflowTo&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SaddflowToNew.jsp&#10;SaddNew&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SaddNew.jsp&#10;outflow&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/outflow.jsp&#10;Saddflo&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SaddflowToOld.jsp&#10;SparePart&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SparePartsNeeded.jsp&#10;repair&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/repairNeeded.jsp&#10;addflowtone&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addflowToNew.jsp&#10;add&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addnew.jsp&#10;fram&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/frame.css&#10;oldSparePartsStorageTowardFlow&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addold/oldSparePartsStorageTowardFlow.java&#10;select.jsp&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/select.jsp&#10;reoldSparePartsStorage&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/select/reOldSparePartsStorage.java&#10;reoldSparePartsStorageServlet&#9;null&#9;null&#10;addflowoldServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addflow/addflowoldServlet.java&#10;addflowToOld&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addflowToOld.jsp&#10;oldSparePartsStor&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addold/oldSparePartsStorageTowardFlow.java&#10;selec&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/select.jsp&#10;select&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/htmlSrc/select.html&#10;sparepartsne&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SparePartsNeeded.jsp&#10;addnew.jsp&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/addnew.jsp&#10;SaddflownewServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addflow/SaddflownewServlet.java&#10;SaddflowToNew&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SaddflowToNew.jsp&#10;SnewSparePartsStorage&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addnew/SnewSparePartsStorage.java&#10;SaddNewServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/repairNeeded/SaddNewServlet.java&#10;SparePartsNeeded&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/repairNeeded/SparePartsNeeded.java&#10;outFlowServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/out/outFlowServlet.java&#10;outflow.jsp&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/outflow.jsp&#10;GeneratingOutFlowServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/out/GeneratingOutFlowServlet.java&#10;SaddflowoldServlet&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addflow/SaddflowoldServlet.java&#10;SaddflowToOld&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/content/repository/SaddflowToOld.jsp&#10;SoldSparePartsStorageTowardFlo&#9;FILE&#9;file:///Users/riosysm/Workspaces/InterlliJ/maintenanceDepartmentManage/ManageSystem/web/WEB-INF/src/servlet/repository/addold/SoldSparePartsStorageTowardFlow.java" />
     <property name="last_opened_file_path" value="/usr/local/Cellar/tomcat/8.5.23/libexec/lib/ojdbc8.jar!/" />
     <property name="FullScreen" value="true" />
   </component>
@@ -1482,8 +1330,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Tomcat Server.keeper.html" />
-        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.addnew.jsp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.addNewSpareParttest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.addNewSpareParttest" />
+        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.addnew.jsp" />
         <item index="3" class="java.lang.String" itemvalue="Application.test" />
         <item index="4" class="java.lang.String" itemvalue="Tomcat Server.addflow.jsp" />
       </list>
@@ -1520,11 +1368,19 @@
       <workItem from="1514196905540" duration="8054000" />
       <workItem from="1514251613633" duration="89316000" />
       <workItem from="1514511028520" duration="5312000" />
+      <workItem from="1514525039540" duration="295000" />
+      <workItem from="1514539644822" duration="322000" />
+      <workItem from="1514686259545" duration="1366000" />
+      <workItem from="1514690308757" duration="34000" />
+      <workItem from="1514798716216" duration="1319000" />
+      <workItem from="1514860213229" duration="501000" />
+      <workItem from="1514860772294" duration="10000" />
+      <workItem from="1514861218795" duration="7670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296198000" />
+    <option name="totallyTimeSpent" value="307715000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1549,13 +1405,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27029702" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26930693" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.092651755" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09158679" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2946331" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Archetypes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1567,6 +1422,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2946331" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1614,7 +1470,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="31" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1623,67 +1479,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/bean/repository/A7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.022566997">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="method#A7#0;class#A7#0" expanded="false" />
-            <element signature="method#A7#1;class#A7#0" expanded="false" />
-            <element signature="method#A7#3;class#A7#0" expanded="false" />
-            <element signature="method#A7#4;class#A7#0" expanded="false" />
-            <marker date="1514366333000" expanded="true" signature="1750:2049" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/bean/repository/A5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1258#1259#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/tools/StringTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#emptyToNull#0;class#StringTools#0" expanded="false" />
-            <element signature="method#nullToEmpty#0;class#StringTools#0" expanded="false" />
-            <element signature="method#stringToArrayList#0;class#StringTools#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1691,7 +1490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1699,22 +1497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/dao/repository/daoForRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1722,48 +1504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="294" column="31" selection-start-line="294" selection-start-column="31" selection-end-line="294" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#A7insert#0;class#daoForRepositoryIMP#0" expanded="false" />
-            <element signature="docComment;method#A7select#0;class#daoForRepositoryIMP#0" expanded="false" />
-            <marker date="1514457481000" expanded="true" signature="641:695" placeholder="insert into A7... " />
-            <marker date="1514457481000" expanded="true" signature="1841:1857" placeholder="SELECT * FRO... A7" />
-            <marker date="1514457481000" expanded="true" signature="1998:2021" placeholder="SELECT * FRO... A7" />
-            <marker date="1514457481000" expanded="true" signature="1998:2029" placeholder="SELECT * FRO... A7" />
-            <marker date="1514457481000" expanded="true" signature="2216:2247" placeholder="SELECT * FRO... A7" />
-            <marker date="1514457481000" expanded="true" signature="2418:2461" placeholder="SELECT * FRO... A7" />
-            <marker date="1514457481000" expanded="true" signature="3890:3933" placeholder="SELECT * FRO... A7" />
-            <marker date="1514457481000" expanded="true" signature="5220:5272" placeholder="UPDATE A7 SE... " />
-            <marker date="1514457481000" expanded="true" signature="6057:6108" placeholder="insert into A6... " />
-            <marker date="1514457481000" expanded="true" signature="6978:7031" placeholder="insert into A6... " />
-            <marker date="1514457481000" expanded="true" signature="8030:8067" placeholder="SELECT * FRO... A7" />
-            <marker date="1514457481000" expanded="true" signature="9378:9396" placeholder="SELECT * FRO... A4" />
-            <marker date="1514457481000" expanded="true" signature="9378:9401" placeholder="SELECT * FRO... A4" />
-            <marker date="1514457481000" expanded="true" signature="9378:9409" placeholder="SELECT * FRO... A4" />
-            <marker date="1514457481000" expanded="true" signature="10690:10730" placeholder="UPDATE A4 SE... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/service/repository/serviceForRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/test/addNewSpareParttest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/service/repository/serviceForRepositoryIMP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="220" column="24" selection-start-line="220" selection-start-column="24" selection-end-line="220" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1771,7 +1511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.6">
           <caret line="100" column="7" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1779,7 +1518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1787,7 +1525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.08">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1795,7 +1532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1803,7 +1539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.64">
           <caret line="16" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1811,7 +1546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1819,7 +1553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1827,15 +1560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.92">
           <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/repository/keeperNeeded.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4513399">
-          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1843,9 +1567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1853,27 +1574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/repository/htmlSrc/repairNeeded.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8996865">
-          <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/repairNeeded/repaireNeededBefore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1881,9 +1581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1891,9 +1588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1901,17 +1595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/repairNeeded/SparePartsNeeded.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1919,9 +1602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1929,15 +1609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addflow/SaddflownewServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1945,7 +1616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1953,49 +1623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addflow/SaddflowoldServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addflow/addflowoldServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/select/reOldSparePartsStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/select/OldSparePartsStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addold/oldSparePartsStorageTowardFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2004,17 +1631,99 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/frame.css">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addold/oldSparePartsStorageTowardFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21181263">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/repository/addflowToNew.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.016718913">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/repository/repairNeeded.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.016718913">
+          <caret line="39" column="97" selection-start-line="39" selection-start-column="97" selection-end-line="39" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addflow/SaddflowoldServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52138495">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addflow/addflowoldServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52138495">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/select/reOldSparePartsStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5376782">
+          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/repository/addflowToOld.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/repository/SaddflowToOld.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/repository/outflow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/repository/SaddflowToNew.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/about/tableNeeded.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3846154">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/frame.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.9423075">
+          <caret line="366" column="19" selection-start-line="366" selection-start-column="19" selection-end-line="366" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/content/repository/keeper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.52">
+        <state vertical-scroll-proportion="-0.64">
           <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -2023,90 +1732,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/repository/addnew.jsp">
+    <entry file="file://$PROJECT_DIR$/web/content/repository/addold.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65497077">
-          <caret line="28" column="84" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="84" />
+        <state vertical-scroll-proportion="-18.4">
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/repository/addflowToNew.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/select/OldSparePartsStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.68">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="82" selection-start-line="47" selection-start-column="82" selection-end-line="47" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/content/repository/SparePartsNeeded.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.84">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state vertical-scroll-proportion="-0.64">
+          <caret line="94" column="65" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/repository/SaddflowToOld.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/test/addNewSpareParttest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.24">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/repository/htmlSrc/repairNeeded.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.04">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/repository/outflow.jsp">
+    <entry file="file://$PROJECT_DIR$/out/artifacts/ManageSystem_war_exploded/WEB-INF/classes/bean/repository/A7.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.76">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        <state vertical-scroll-proportion="-7.703704">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#2346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/dao/repository/daoForRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/repairNeeded/repaireNeededBefore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/content/repository/SaddNew.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.56">
+        <state vertical-scroll-proportion="-0.64">
           <caret line="32" column="97" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="97" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/repository/repairNeeded.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/service/repository/serviceForRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.72">
-          <caret line="39" column="97" selection-start-line="39" selection-start-column="97" selection-end-line="39" selection-end-column="97" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/repository/SaddflowToNew.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/addflow/SaddflownewServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.64">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/content/repository/select.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.68">
+        <state vertical-scroll-proportion="-14.72">
           <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/repository/addold.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/service/repository/serviceForRepositoryIMP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86549705">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        <state vertical-scroll-proportion="-11.666667">
+          <caret line="199" column="14" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/repository/addflowToOld.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/src/servlet/repository/repairNeeded/SparePartsNeeded.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0994152">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/repository/addnew.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14733543">
+          <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/repository/keeperNeeded.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16753927">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
